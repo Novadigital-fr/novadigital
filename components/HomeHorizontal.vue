@@ -108,36 +108,40 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { onMounted, onUnmounted, ref } from 'vue';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export default {
-  mounted() {
-    // Votre code JavaScript ici
-    const container = document.querySelector('.container');
+const scrollTween = ref(null);
 
-    console.log(container);
+onMounted(() => {    
+  const container = document.querySelector('.container');
 
-    if (window.matchMedia("(min-width: 1024px)").matches) {
-      let sections = gsap.utils.toArray(".panel");
+  if (window.matchMedia("(min-width: 1024px)").matches) {
+    let sections = gsap.utils.toArray(".panel");
 
-      let scrollTween = gsap.to(sections, {
-        xPercent: -100 * (sections.length - 2),
-        ease: "none", // <-- IMPORTANT!
-        scrollTrigger: {
-          trigger: "#container",
-          pin: true,
-          scrub: 0.1,
-          //snap: directionalSnap(1 / (sections.length - 1)),
-          end: "+=4000",
-        },
-      });
-    }
-  },
-};
+    scrollTween.value = gsap.to(sections, {
+      xPercent: -100 * (sections.length - 2),
+      ease: "none", // <-- IMPORTANT!
+      scrollTrigger: {
+        trigger: "#container",
+        pin: true,
+        scrub: 0.1,
+        //snap: directionalSnap(1 / (sections.length - 1)),
+        end: "+=4000",
+      },
+    });
+  }
+});
+
+onUnmounted(() => {
+  if (scrollTween.value) {
+    scrollTween.value.scrollTrigger.kill();
+    scrollTween.value = null;
+  }
+});
 </script>
 
 <style scoped>

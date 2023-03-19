@@ -91,7 +91,7 @@ body #cdawrap {
 	justify-content: center;
 	display: grid;
 	grid-template-areas: 'caption' 'img';
-	margin: 0 auto 20vh;
+	margin: 0 auto 2.5vh;
 }
 
 .item__image-wrap {

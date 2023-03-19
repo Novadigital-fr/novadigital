@@ -1,6 +1,6 @@
 <template>
-    <div class="home7" ref="container">
-    <div  id="container" class="container" >
+    <div ref="container2">
+    <div  id="container2" class="container2" >
       <div class="menu">
         
           <div>
@@ -34,7 +34,7 @@
         
       </div>
       
-      <section class="panel">
+      <section class="panel2">
         <div>
           <img src="../../assets/img/1.svg" alt="" />
           <h2>{{title1}}</h2>
@@ -43,7 +43,7 @@
           </p>
         </div>
       </section>
-      <section class="panel">
+      <section class="panel2">
         <div>
           <img src="../../assets/img/2.svg" alt="" />
           <h2>{{title2}}</h2>
@@ -52,7 +52,7 @@
           </p>
         </div>
       </section>
-      <section class="panel">
+      <section class="panel2">
         <div>
           <img src="../../assets/img/3.svg" alt="" />
           <h2>{{title3}}</h2>
@@ -61,7 +61,7 @@
           </p>
         </div>
       </section>
-      <section class="panel">
+      <section class="panel2">
         <div>
           <img src="../../assets/img/4.svg" alt="" />
           <h2>{{ title4 }}</h2>
@@ -70,7 +70,7 @@
           </p>
         </div>
       </section>
-      <section class="panel">
+      <section class="panel2">
         <div>
           <img src="../../assets/img/1.svg" alt="" />
           <h2>{{title5}}</h2>
@@ -136,31 +136,33 @@
     },
     mounted() {
       // Votre code JavaScript ici
-      const container = document.querySelector('.container');
-  
-      console.log(container);
-  
+      const container2 = document.querySelector('.container2');
+    
       if (window.matchMedia("(min-width: 1024px)").matches) {
-        let sections = gsap.utils.toArray(".panel");
+        let sections2 = gsap.utils.toArray(".panel2");
   
-        let scrollTween = gsap.to(sections, {
-          xPercent: -100 * (sections.length - 1.5),
+        let scrollTween2 = gsap.to(sections2, {
+          xPercent: -100 * (sections2.length - 1.5),
           ease: "none", // <-- IMPORTANT!
           scrollTrigger: {
-            trigger: "#container",
+            trigger: "#container2",
             pin: true,
             scrub: 0.1,
-            //snap: directionalSnap(1 / (sections.length - 1)),
+            //snap: directionalSnap(1 / (sections2.length - 1)),
             end: "+=5000",
           },
         });
       }
     },
+    onUnmounted() {
+    scrollTween2.value.revert(); // <- Easy Cleanup!
+    console.log(scrollTween2);
+},
   };
   </script>
   
   <style scoped>
-  .container {
+  .container2 {
     width: 300vw;
     height: 100vh;
     display: flex;
@@ -168,19 +170,19 @@
     overscroll-behavior: none;
   }
   
-  .panel {
+  .panel2 {
     width: 60vw;
     margin-top: 5vh;
   }
   
-  .panel div {
+  .panel2 div {
     margin: 20%;
   }
-  .panel h2 {
+  .panel2 h2 {
     font-size: 30px;
     margin: 5vh 0;
   }
-  .panel img{
+  .panel2 img{
     height: 200px;
   }
   
@@ -209,13 +211,13 @@
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
     }
-    .container {
+    .container2 {
       width: 600%;
       height: 90vh;
       display: flex;
       flex-wrap: nowrap;
     }
-    .panel {
+    .panel2 {
       position: relative;
       z-index: 4;
       width: 90vw;
@@ -223,10 +225,10 @@
       font-weight: 300;
       overflow: hidden;
     }
-    .panel div {
+    .panel2 div {
       margin: 0 4%;
     }
-    .panel img{
+    .panel2 img{
     height: 100px;
   }
   }

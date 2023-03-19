@@ -2,7 +2,9 @@
   <div class="header">
     <h1 ref="title" class="animated-title">{{ text }}</h1>
     <p ref="description" class="description">{{ description }}</p>
-    <img :src="image" alt="Mon image" />
+
+    <div class="backimage" :style="{ backgroundImage: `url(${image})` }"></div>
+    <!-- <img :src="image" alt="Mon image" /> -->
   </div>
 </template>
   
@@ -55,12 +57,18 @@
   color: var(--color-text);
   }
   img{
+   
+  }
+  .backimage{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     z-index: -1;
-    height: 100vh;
+    height: 100%;
   }
   @media screen and (max-width: 1024px) {
   /* tablettte */
