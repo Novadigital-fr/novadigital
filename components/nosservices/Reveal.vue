@@ -88,4 +88,12 @@ export default {
 	font-size: 1.25rem;
 	line-height: 1.5;
 }
+@media screen and (max-width: 767px) {
+  /* mobile */
+  .content .content__title{
+
+	font-size: 1rem;
+
+}
+}
 </style>
