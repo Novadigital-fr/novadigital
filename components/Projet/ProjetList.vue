@@ -1,84 +1,115 @@
-<script setup>
-const { data: projetList } = useAsyncData("projetList", () => {
-  return queryContent("/projet").find();
-});
-</script>
-
 <template>
-  <div class="blog">
- 
-  <div v-for="projet in projetList" :key="projet._path" class="card">
-    <NuxtLink :to="projet._path">
+  <div class="body">
 
-      <section class="articles">
-      <div class="image">
-      <img class="imageliste" :src="projet.image" alt="">
-      </div>
-        <div class="media">
-          <div class="">
-            <h3 class="titleArticle">
-              {{ projet.title }}
-            </h3>
-            <div class="content">
-            {{ projet.description }}
-          </div>
-          </div>
+  <div class="main">
+    <div class="slider">
+      <div class="slider-inner">
+        <div class="item">
+          <div class="img"></div>
         </div>
-       
-      </section>
-    </NuxtLink>
+        <div class="item">
+          <div class="img"></div>
+        </div>
+        <div class="item">
+          <div class="img"></div>
+        </div>
+        <div class="item">
+          <div class="img"></div>
+        </div>
+      
+      
+      </div>
+    </div>
   </div>
 </div>
 </template>
 
-<style scoped>
-.blog{
+<script setup>
+import { onMounted, onUnmounted, ref } from "vue";
+
+onMounted(() => {
+
+let images = [...document.querySelectorAll('.img')];
+let slider = document.querySelector('.slider');
+let body = document.querySelector('.body');
+let sliderWidth;
+let imageWidth;
+let current = 0;
+let target = 0;
+let ease = .05;
+
+images.forEach((img, idx) => {
+  img.style.backgroundImage = `url(./img/gellini${idx+1}.png)`
+})
+
+function lerp(start, end, t){
+  return start * (1-t) + end * t
+}
+function setTransform(el, transform){
+  el.style.transform = transform;
+}
+function init(){
+  sliderWidth = slider.getBoundingClientRect().width;
+  imageWidth = sliderWidth / images.length;
+  body.style.height = `${sliderWidth - (window.innerWidth = window.innerHeight)}px`
+}
+
+function animate(){
+  current = parseFloat(lerp(current, target, ease)).toFixed(2);
+  target= window.scrollY;
+  setTransform(slider, `translateX(-${current}px)`)
+  requestAnimationFrame(animate);
+}
+init();
+animate()
+
+})
+
+</script>
+
+<style lang="scss" scoped>
+
+.main{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  // background-color: var(--color-text);
+
+}
+.slider{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2800px;
+  height: 100%;
+}
+.slider-inner{
+  position: absolute;
+  top: 15%;
+  height: 70%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: flex-start;
+  justify-content: space-around;
 
 }
 
-.articles {
-  /* padding: 1%; */
-  margin: 5% 0;
-  display: flex;
-  background-color: var(--color-secondaire);
-  color: var(--color-bg);
-  width: 32vw;
-  align-items: baseline;
-
+.item{
+  position: relative;
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
 }
-.imageliste{
-  width: 32vw;
-}
-.media{
-  width: 32vw;
-  padding: 8%;
-}
-.titleArticle{
-  font-size: 30px;
-  margin-bottom: 4%;
-}
-@media screen and (max-width: 1024px) {
-  /* tablettte */
-
-  .articles {
-  
-  width: 100%;
-}
-.imageliste{
-  width: 100%;
-}
-.media{
-  width: 100%;
-  padding: 8%;
-}
+.img{
+  position: absolute;
+  left: -100px;
+  width: 600px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
 
 }
 
-@media screen and (max-width: 767px) {
-  /* mobile */
-}
+
 </style>

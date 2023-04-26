@@ -4,7 +4,7 @@
 
     <div class="proceder">
       <div class="image">
-        <img src="/img/novalingo2.png" alt="" />
+        <img src="/img/novalingo/novalingo2.png" alt="" />
       </div>
       <div class="content">
         <h2 class="animation">
@@ -30,12 +30,12 @@
         </p>
       </div>
       <div class="image">
-        <img src="/img/novagraphy3.png" alt="" />
+        <img src="/img/novagraphy/novagraphy3.png" alt="" />
       </div>
     </div>
     <div class="proceder">
       <div class="image">
-        <img src="/img/gellini1.png" alt="" />
+        <img src="/img/gellini/gellini1.png" alt="" />
       </div>
       <div class="content">
         <h2 class="animation">

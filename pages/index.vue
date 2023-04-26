@@ -1,9 +1,10 @@
 <template>
-    <main>
+    <main class="home">
       <HomeHeader />
       <MenuPage />
       <NotreApproche />
-      <HomeHorizontal />
+      <!-- <HomeHorizontal /> -->
+      <PresentationProjet/>
       <HomeProjet />
       <AnimationText />
 
@@ -20,6 +21,8 @@ useHead({
 
 
 </script>
-<style>
-
+<style lang="scss" scoped>
+.home{
+  // padding: 0 1vw;
+}
 </style>

@@ -38,14 +38,15 @@
   };
   </script>
   
-  <style scoped>
+  <style lang="scss" scoped>
   .header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     padding-bottom: 10%;
-    width: 50vw;
+    width: 50%;
+    
   }
   .animated-title {
   font-size: 60px;
@@ -69,6 +70,18 @@
     width: 100%;
     z-index: -1;
     height: 100%;
+    transform: scale(1.1);
+    animation: 2s back;
+
+    @keyframes back {
+      0%{
+        transform: scale(1);
+      }
+      100%{
+
+      }
+      
+  }
   }
   @media screen and (max-width: 1024px) {
   /* tablettte */

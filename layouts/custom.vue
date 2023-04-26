@@ -15,18 +15,28 @@
         </ul>
       </nav>
     </header>
-  </div>
+  <slot />
+  <TheFooter />
+</div>
 </template>
 
-<style scoped>
+<script setup>
 
+</script>
 
+<style lang="scss" scoped>
+header{
+  position: fixed;
+  width: 98vw;
+  z-index: 10;
+}
 ul {
   padding: 0;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--color-text);
 
 }
 
@@ -67,18 +77,23 @@ header {
 	opacity: 1; /* rendre la div visible en changeant l'opacité à 1 */
   animation: slide-in-from-top 1s ease-in-out;
   }
+  
   /* définir l'animation de fondu enchaîné */
   @keyframes slide-in-from-top {
-  from {
-  transform: translateY(-50px);
-  }
-  to {
-  transform: translateY(0);
-  }
+from {
+transform: translateY(-50px);
 }
+to {
+transform: translateY(0);
+}
+
+  }
 
 @media screen and (max-width: 1024px) {
   /* tablettte */
+
+  
+
 }
 
 @media screen and (max-width: 767px) {
