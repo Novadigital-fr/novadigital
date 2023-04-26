@@ -28,6 +28,10 @@
 </script>
 
 <style scoped>
+.full{
+  background-color: var(--color-text);
+
+}
 .header {
   height: 50vh;
   display: flex;

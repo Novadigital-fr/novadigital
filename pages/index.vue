@@ -1,11 +1,12 @@
 <template>
     <main class="home">
+
       <HomeHeader />
       <MenuPage />
       <NotreApproche />
-      <!-- <HomeHorizontal /> -->
+      <HomeHorizontal />
       <PresentationProjet/>
-      <HomeProjet />
+
       <AnimationText />
 
     </main>

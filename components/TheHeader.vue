@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header">
     <header>
       <nav>
         <ul>
@@ -19,10 +19,13 @@
 </template>
 
 <style scoped>
+header{
+  background-color: var(--color-text);
 
+}
 
 ul {
-  padding: 0;
+  padding: 0 1vw;
   list-style-type: none;
   display: flex;
   align-items: center;
