@@ -1,6 +1,7 @@
 <template>
   <div class="content">
-    <h3
+  <h3>Création de site <br> sur mesure</h3>
+    <p
       class="content__title content__title--left"
       data-splitting
       data-effect16
@@ -8,7 +9,9 @@
       <p class="font-small">
 {{ reveal }}    
   </p>
-    </h3>
+    </p>
+    <div class="backimage" :style="{ backgroundImage: `url(${image})` }"></div>
+
   </div>
 </template>
 
@@ -41,7 +44,7 @@ export default {
         title,
         {
           transformOrigin: "0% 50%",
-          rotate: 3,
+          // rotate: 3,
         },
         {
           ease: "none",
@@ -80,20 +83,33 @@ export default {
 
 <style scoped>
 .content{
-    margin: 30vh 0;
+    padding: 15vh 1vw;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 .content .content__title{
 	max-width: 660px;
-	margin: 1.5rem auto;
+	margin: 1.5rem 0 1.5rem 55%;
 	font-size: 1.25rem;
 	line-height: 1.5;
+  /* font-size: 30px;
+  width: 80%; */
+}
+h3{
+  font-size: 4vw;
 }
 @media screen and (max-width: 767px) {
   /* mobile */
   .content .content__title{
 
 	font-size: 1rem;
+  	margin: 1.5rem 5%;
 
+
+}
+h3{
+  margin:0 5%;
+  font-size: 40px;
 }
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
     <div>
         <main>
-			
 			<section class="section section--intro">
 				<h2 class="section__title">Agence <br> Créative</h2>
 				<p class="section__text">
@@ -279,7 +278,7 @@ const scroll = () => {
 </script>
 
 <style lang="scss" scoped>
-.demo-4 {
+body {
 	// --color-text: #fff;
 	--color-link: #fff;
 	--color-link-hover: #aaa;
@@ -305,30 +304,16 @@ const scroll = () => {
     height: 250vh;
 }
 .decouvrir{
-    padding: 2vh 5vw 10vh 5vw;
-}
-.frame {
-	width: 100%;
-	line-height: 1.2;
-	font-size: 1rem;
-	color: var(--color-title);
-	padding: 1rem;
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-template-areas: 'title prev' 'nav nav' 'sponsor sponsor';
-	grid-gap: 1rem;
-	z-index: 100;
-	position: absolute;
+    padding: 2vh 1vw 10vh 1vw;
 }
 
-.frame a:not(.frame__title-back),
 .row + p a {
 	white-space: nowrap;
 	overflow: hidden;
 	position: relative;
 }
 
-.frame a:not(.frame__title-back)::before,
+
 .row + p a::before {
 	content: '';
 	height: 1px;
@@ -353,39 +338,38 @@ const scroll = () => {
     z-index: 4;
     width: 100%;
     min-height: 100vh;
-    background-color: var(--color-text);
 
     // background: var(--color-bg);
 }
 
 .section--intro {
+	background: var(--color-text);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 8rem 0 2rem;
+	padding: 1rem 1vw;
 	cursor: default;
 }
 
 .section__title {
-	font-family: kudryashev-d-excontrast-sans, sans-serif;
-	font-size: clamp(2rem,17vw,12.5rem);
-	margin: 5vh 0 6vh;
-	line-height: 0.9;
+	font-size: 6vw;
+	margin: 5vh 0 0;
+	// line-height: 0.9;
 	text-transform: none;
 	-moz-font-feature-settings: "swsh";
 	-webkit-font-feature-settings: "swsh";
 	font-feature-settings: "swsh";
 }
 
-.section__title--medium {
-	font-size: clamp(1.5rem,12vw,9rem);
-}
+// .section__title--medium {
+// 	font-size: clamp(1.5rem,10vw,8rem);
+// }
 
 .section__text {
-	margin: 0;
+	margin: 7vh 0 0 0;
 	max-width: 400px;
 }
 
@@ -414,10 +398,10 @@ const scroll = () => {
 	width: 100%;
 	position: relative;
 	display: flex;
-	justify-content: var(--justify);
-	gap: var(--gap);
+	justify-content: center;
+	gap: 0px;
 	height: 100%;
-	transform: rotate(var(--rotation));
+	transform: rotate(-45deg);
 	align-items: center;
 	will-change: transform, opacity;
 }
@@ -445,13 +429,13 @@ const scroll = () => {
 	--grid-item-height: calc(var(--grid-item-width) * var(--ratio));
 	// width: var(--grid-item-width);
 	// height: var(--grid-item-height);
-    width: 34vw;
+    width: 420px;
     height: 400px;
 	position: relative;
 	overflow: hidden;
 	border-radius: var(--radius);
 	cursor: pointer;
-	margin: 0 0 var(--gap) 0;
+	margin: 0 0 20px 0;
 	z-index: 1;
 	will-change: transform, filter;
 }
@@ -463,6 +447,7 @@ const scroll = () => {
 	background-size: cover;
 	background-position: 50% 50%;
 	will-change: transform;
+	rotate: 90deg;
 }
 
 .section--showcase {
@@ -471,15 +456,16 @@ const scroll = () => {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 8rem 5vw 10vh;
+	padding: 8rem 1vw;
 	cursor: default;
+	background-color: var(--color-text);
 }
 
 .section__header {
 	display: flex;
 	border-bottom: 1px solid #000;
 	width: 100%;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: space-around;
 	padding: 4vh 8vw;
 	margin-bottom: 4rem;
@@ -551,7 +537,7 @@ const scroll = () => {
 
 @media screen and (min-width: 53em) {
     .decouvrir{
-    padding: 2vh 5vw 10vh 5vw;
+    padding: 2vh 1vw 10vh 1vw;
     font-size: 1.45rem;
     }
 	.frame {

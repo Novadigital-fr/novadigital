@@ -37,8 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 5vh;
-  padding-top: 22vh;
+  padding: 22vh 1vw 5vh 1vw;
 }
 .title {
   font-size: 100px;
@@ -92,6 +91,8 @@
     align-items: flex-start;
     padding-bottom: 5vh;
     padding-top: 22vh;
+    margin: 0 5%;
   }
+
 }
 </style>

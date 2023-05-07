@@ -4,12 +4,22 @@
     <NosservicesHeader 
     text="Votre agence de création de site e-commerce à Lyon"
     description="Notre agence web, située à Lyon, s’occupe de la réalisation de site e-commerce personnalisé pour représenter au mieux votre entreprise. C’est-à-dire la création de boutique en ligne. L’expertise de l’agence comprend la création de site e-commerce unique et professionnelle qui répondra aux besoins spécifiques de vos utilisateurs. Du webdesign, parcours client et utilisateur, intégration de la base de données, développement web, nous vous accompagnement tout au long de la création de la boutique en ligne." 
-     image ="/img/gellini2.png"
+     image ="/img/gellini/gellini2.png"
      />
-
+     <BackImage backImage ="/img/gellini/gellini1.png"/>
      <NosservicesReveal
-    reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Grâce à Novadigital, vous allez pouvoir digitaliser votre boutique, en ayant un site e-commerce dont vous pouvez posséder l’entière gestion. Nous vous accompagnons tout au long de la création de votre site e-commerce jusqu’à la gestion de votre boutique. Nous vous accompagnons dans la gestion de vos produits, et vous formons pour être totalement indépendants." 
-    />
+      reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Grâce à Novadigital, vous allez pouvoir digitaliser votre boutique, en ayant un site e-commerce dont vous pouvez posséder l’entière gestion. Nous vous accompagnons tout au long de la création de votre site e-commerce jusqu’à la gestion de votre boutique. Nous vous accompagnons dans la gestion de vos produits, et vous formons pour être totalement indépendants." 
+      />
+      <BackImage backImage ="/img/gellini/gellini2.png"/>
+      <NosservicesNotreplus
+      title="Développement de votre site e-commerce"
+      sous_title1="Création de site full code"
+      text1="Lorsque les clients naviguent sur un site e-commerce, la rapidité et la performance sont essentielles pour leur expérience utilisateur. En écrivant tout le code du site e-commerce, il est possible d'optimiser chaque ligne de code pour des performances optimales, ce qui se traduit par un temps de chargement plus rapide et une expérience utilisateur plus fluide."
+      sous_title2="Un site e-commerce sans limite"
+      text2=" Les plates-formes de création de sites web et les CMS ont des limites en termes de personnalisation et d'évolution, ce qui peut rendre difficile la maintenance du site e-commerce. En écrivant tout le code du site e-commerce, il n'y a pas de limite à la manière dont le site peut être amélioré et mis à jour. Les développeurs peuvent facilement ajouter de nouvelles fonctionnalités, effectuer des mises à jour de sécurité et de maintenance pour garantir que le site reste à jour et sécurisé."
+      sous_title3="Webdesign unique"
+      text3="Les clients recherchent une expérience d'achat en ligne personnalisée, et cela peut être difficile à réaliser avec des plates-formes de création de sites web et des CMS. En écrivant tout le code du site e-commerce, il est possible de personnaliser chaque aspect du site en fonction des besoins spécifiques de l'utilisateur. Cela permet de créer un site e-commerce unique et personnalisé qui se démarque de la concurrence."
+      />
      <NosservicesHorizontal 
      title1="Définir vos objectifs"
      text1="Avec un membre de l’agence digitale, nous définissons ensemble vos besoins et attentes afin d'en conclure des objectifs communs. Cette phase d'introduction nous est essentielle pour vous proposer le développement qui vous correspond au mieux. Nous sommes ouverts à toutes vos interrogations concernant la création de votre site web"
@@ -22,11 +32,14 @@
      title5="Accompagnement référencement SEO"
      text5="Nous développons votre site web en tenant compte du référencement. Pour des résultats concrets, nous vous accompagnons sur la durée, notamment pour vous permettre de vous positionner en tête des résultats de recherche pour les termes les plus pertinents. Le référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, donc de nouvelles opportunités commerciales."
      />
-     <HomeProjet />
+     <PresentationProjet/>
   </main>
 </template>
 
 <script setup>
+definePageMeta({
+  layout: "custom",
+});
 useHead({
 title: 'Votre agence de création de site e-commerce à Lyon - Novadigital',
 meta: [

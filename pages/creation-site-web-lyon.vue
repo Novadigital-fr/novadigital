@@ -4,11 +4,21 @@
       <NosservicesHeader 
       text="Votre agence de création de site web à Lyon"
       description=" Notre agence web située à Lyon s’occupe de la réalisation de site internet personnalisée pour représenter aux mieux votre entreprise. L’expertise de l’agence comprend la création de site web unique et professionnel qui répondra aux besoins spécifiques de vos utilisateurs. Du webdesign au développement, nous faisons de la conception de site vitrine et e-commerce." 
-       image ="/img/novagraphy3.png"
        />
-
+       
+      <BackImage backImage ="/img/novagraphy/novagraphy3.png"/>
        <NosservicesReveal
       reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Nous répondons à vos problématiques en vous créant une vitrine virtuelle. Novadigital vous accompagne tout au long de la création de votre site web jusqu’au référencement SEO pour garantir une vie longue terme à votre site vitrine. Il est important d’alimenter régulièrement en termes de contenu votre site web pour le maintenir en forme et optimiser ses chances d’être visible." 
+      />
+      <BackImage backImage ="/img/studiodino/studiodino3.png"/>
+      <NosservicesNotreplus
+      title="Développement de votre site"
+      sous_title1="Création de site full code"
+      text1="L'utilisation de plates-formes de création de sites web ou de CMS peut souvent entraîner une surcharge de code et des temps de chargement plus lents. En écrivant tout le code du site web, il est possible d'optimiser chaque ligne de code pour des performances optimales, ce qui se traduit par un temps de chargement plus rapide et une expérience utilisateur plus fluide."
+      sous_title2="Un site web sans limite"
+      text2="En écrivant tout le code du site web, il n'y a pas de limite à la manière dont le site web peut être amélioré et mis à jour. Les développeurs peuvent facilement ajouter de nouvelles fonctionnalités et effectuer des mises à jour pour garantir que le site web reste à jour et pertinent."
+      sous_title3="Webdesign unique"
+      text3="Les plates-formes de création de sites web et les CMS offrent souvent des options limitées en termes de personnalisation. En écrivant tout le code du site web, il est possible de personnaliser chaque aspect du site web en fonction des besoins spécifiques de l'utilisateur. Cela permet de créer un site web unique et personnalisé."
       />
        <NosservicesHorizontal 
        title1="Définir vos objectifs"
@@ -22,11 +32,14 @@
        title5="Hébergement et maintenance du site web"
        text5="Créer un site internet inclut la question de l’hébergement. Nous sommes évidemment présentes pour vous conseiller. Choisir un hébergeur adéquat est impératif pour une bonne expérience sur votre site. Les équipes de l’agence Novadigital s’occupent également des mises à jour récurrentes et assurent la protection et la sécurité de votre site internet."
        />
-       <HomeProjet />
+       <PresentationProjet/>
     </main>
 </template>
 
 <script setup>
+definePageMeta({
+  layout: "custom",
+});
 useHead({
   title: 'Votre agence de création de site web à Lyon - Novadigital',
   meta: [

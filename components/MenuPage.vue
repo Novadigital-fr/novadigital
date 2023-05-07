@@ -38,6 +38,7 @@
 <style scoped>
 .menu{
     text-transform: uppercase;
+    padding: 0 1vw;
 }
 .menu div{
     border-bottom: solid 1px;

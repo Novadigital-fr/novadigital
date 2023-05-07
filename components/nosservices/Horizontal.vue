@@ -189,8 +189,9 @@ onUnmounted(() => {
 
 .menu1 {
   text-transform: uppercase;
-  width: 98vw;
+  width: 100vw;
   position: absolute;
+  padding: 0 1vw;
 }
 .menu1 div {
   border-bottom: solid 1px;
@@ -256,7 +257,7 @@ onUnmounted(() => {
   }
   .panel1 img{
     margin: 2%;
-  height: 50px;
+  height: 15px;
 }
 }
 </style>

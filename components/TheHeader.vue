@@ -19,18 +19,15 @@
 </template>
 
 <style scoped>
-header{
-  background-color: var(--color-text);
 
-}
 
 ul {
-  padding: 0 1vw;
+  padding:  1vw;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  margin: 0;
 }
 
 .link {
@@ -68,7 +65,8 @@ ul {
 
 header {
 	opacity: 1; /* rendre la div visible en changeant l'opacité à 1 */
-  animation: slide-in-from-top 1s ease-in-out;
+  background-color: var(--color-text);
+  /* animation: slide-in-from-top 1s ease-in-out; */
   }
   /* définir l'animation de fondu enchaîné */
   @keyframes slide-in-from-top {
@@ -86,5 +84,8 @@ header {
 
 @media screen and (max-width: 767px) {
   /* mobile */
+  ul{
+    margin: 0 5%;
+  }
 }
 </style>

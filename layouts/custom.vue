@@ -7,7 +7,7 @@
             <NuxtLink to="/nosprojets">Projets</NuxtLink>
           </li>
           <li class="link link--metis">
-            <NuxtLink to="/">Agence web</NuxtLink>
+            <NuxtLink to="/">Novadigital</NuxtLink>
           </li>
           <li class="link link--metis">
             <NuxtLink to="/notreblog">Articles</NuxtLink>
@@ -27,11 +27,12 @@
 <style lang="scss" scoped>
 header{
   position: fixed;
-  width: 98vw;
+  width: 100vw;
   z-index: 10;
+  // background-color: var(--color-bg);
 }
 ul {
-  padding: 0;
+  padding: 0 1vw;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -98,5 +99,10 @@ transform: translateY(0);
 
 @media screen and (max-width: 767px) {
   /* mobile */
+  ul{
+    padding: 0 5%;
+
+  }
+
 }
 </style>

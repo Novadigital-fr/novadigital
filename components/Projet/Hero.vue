@@ -1,8 +1,9 @@
 <template>
-  <div class="header">
+  <div class="hero">
+    <div class="backimage" :style="{ backgroundImage: `url(${image})` }">
     <h1 ref="title" class="animated-title">{{ text }}</h1>
 
-    <div class="backimage" :style="{ backgroundImage: `url(${image})` }"></div>
+    </div>
     <!-- <img :src="image" alt="Mon image" /> -->
   </div>
 </template>
@@ -37,33 +38,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 70%;
+.hero {
+  height: 100vh;  
+  overflow: hidden;
+
+
 }
 .animated-title {
   font-size: 15vw;
   font-weight: 500;
   color: white;
+  padding-bottom: 5vh;
+  transform: scale(0.8);
+
   // mix-blend-mode: difference;
 }
-.description {
-  font-size: 25px;
-  color: var(--color-text);
-}
 .backimage {
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: -1;
   height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   transform: scale(1.1);
   animation: 2s back;
 }
@@ -77,26 +77,15 @@ export default {
 }
 @media screen and (max-width: 1024px) {
   /* tablettte */
-  .header {
-    padding-bottom: 15%;
-    width: 70vw;
-  }
 
-  img {
-    left: -200px;
-    width: auto;
-    height: 100vh;
-  }
+
+
   
 }
 
 @media screen and (max-width: 767px) {
   /* mobile */
-  .header {
-    padding-bottom: 20%;
-
-    width: 80vw;
-  }
+  
   .animated-title {
     font-size: 18vw;
   }

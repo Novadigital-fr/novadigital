@@ -6,9 +6,20 @@
       description="Dès la conception de sites, nous tenons compte du référencement naturel. Pour des résultats concrets, nous vous accompagnons sur la durée, notamment vous permettre de vous positionner en tête des résultats de recherche pour les termes les plus pertinents. Notre agence, située à Lyon, vous propose d’améliorer votre visibilité sur Internet grâce au référencement SEO" 
        image ="/img/novacharpente/novacharpente1.png"
        />
-  
+       <BackImage backImage ="/img/inflib/inflib3.png"/>
+
        <NosservicesReveal
       reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Grâce à Novadigital, vous allez pouvoir digitaliser votre boutique, en ayant un site e-commerce dont vous pouvez posséder l’entière gestion. Nous vous accompagnons tout au long de la création de votre site e-commerce jusqu’à la gestion de votre boutique. Nous vous accompagnons dans la gestion de vos produits, et vous formons pour être totalement indépendants." 
+      />
+      <BackImage backImage ="/img/gellini/gellini4.png"/>
+      <NosservicesNotreplus
+      title="Pourquoi avoir un suivi SEO"
+      sous_title1="Amélioration de la visibilité en ligne"
+      text1="Le suivi SEO permet d'optimiser le site web pour les moteurs de recherche, ce qui peut améliorer sa visibilité en ligne. Les mots clés et les phrases clés peuvent être analysés et optimisés pour mieux se classer dans les résultats de recherche, ce qui peut entraîner une augmentation du trafic organique."
+      sous_title2="Suivi de la concurrence"
+      text2="Le suivi SEO permet de surveiller les performances des concurrents dans les résultats de recherche. Cela peut fournir des informations précieuses sur les stratégies de marketing numérique des concurrents et aider à identifier les opportunités pour améliorer le classement dans les résultats de recherche."
+      sous_title3="Amélioration de l'expérience utilisateur"
+      text3="Le suivi SEO peut aider à améliorer l'expérience utilisateur sur le site web en identifiant les pages qui ont un faible taux de rebond et un temps de chargement lent. En optimisant ces pages, l'expérience utilisateur peut être améliorée, ce qui peut entraîner une augmentation de la durée de visite et une réduction du taux de rebond."
       />
        <NosservicesHorizontal 
        title1="Définir vos objectifs"
@@ -22,11 +33,14 @@
        title5="Résultats du référencement naturel"
        text5="Le résultat du référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, potentiellement de nouvelles opportunités commerciales et une augmentation du chiffre d’affaires. Cela varie essentiellement en fonction des objectifs validés en amont. Les résultats du référencement SEO apparaissent sur le long terme, c’est pourquoi nous vous accompagnons sur la durée."
        />
-       <HomeProjet />
+       <PresentationProjet/>
     </main>
-  </template>
+</template>
   
   <script setup>
+  definePageMeta({
+  layout: "custom",
+});
   useHead({
   title: 'Votre agence de référencement naturel SEO - Novadigital',
   meta: [
