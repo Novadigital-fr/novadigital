@@ -1,7 +1,7 @@
 ---
 title: Les 10 étapes pour un référencement local
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-image: /img/novagraphy3.png
+image: /img/photo5.jpg
 ---
 
 # Les 10 étapes pour optimiser son référencement local

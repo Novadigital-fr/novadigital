@@ -8,6 +8,8 @@
       <PresentationProjet/>
 
       <AnimationText />
+      <BlogArticleDroite/>
+
 
     </main>
 </template>

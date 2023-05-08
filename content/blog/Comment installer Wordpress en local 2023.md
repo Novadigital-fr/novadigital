@@ -1,12 +1,12 @@
 ---
 title: Comment installer Wordpress en local ? 2023
 description: Vous souhaitez installer Wordpress en local en 2023 ? Découvrez notre guide complet pour installer Wordpress sur votre ordinateur et créer votre site web en toute simplicité.
-image: /img/gellini1.png
+image: /img/photo9.jpg
 ---
 
 # Comment installer Wordpress en local ? 2023 : Guide complet
 
-![photo5](/img/gellini1.png)
+![photo5](/img/photo9.png)
 
 ### introduction :
 

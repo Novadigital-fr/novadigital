@@ -1,12 +1,12 @@
 ---
 title: Comment creer un site e-commerce avec nuxt et shopify
 description: Pour créer un site e-commerce en 2023, vous pourriez envisager d'utiliser Nuxt et Shopify pour créer une plate-forme performante et facile à utiliser. Dans cet article, nous allons vous expliquer comment procéder.
-image: /img/novacharpente4.png
+image: /img/19032.png
 ---
 
 # Comment creer un site e-commerce avec nuxt et shopify
 
-![photo5](/img/novacharpente4.png)
+![photo5](/img/19032.png)
 
 Avec l'essor continu des achats en ligne, de plus en plus d'entreprises cherchent à créer leur propre site e-commerce. Si vous êtes l'un de ceux qui cherchent à créer un site e-commerce en 2023, vous pourriez envisager d'utiliser Nuxt et Shopify pour créer une plate-forme performante et facile à utiliser. Dans cet article, nous allons vous expliquer comment procéder.
 

@@ -10,6 +10,8 @@
       <source src="../assets/img/video-drone.mp4" type=video/mp4>
          </video>
       <NosservicesReveal
+      title_reveal="vidéos aériennes en drone"
+
       reveal="Nos vidéos aériennes en drone offrent une visualisation immersive et détaillée des lieux, offrant ainsi une perspective à la fois plus large et plus détaillée. Nous sommes en mesure de capturer des images aériennes spectaculaires de votre propriété, entreprise ou événement, aidant à susciter l'intérêt des spectateurs et à rendre votre promotion plus captivante et mémorable." 
       />
       <BackImage backImage ="/img/drone1.jpg"/>
@@ -35,6 +37,7 @@
        text5="Le résultat du référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, potentiellement de nouvelles opportunités commerciales et une augmentation du chiffre d’affaires. Cela varie essentiellement en fonction des objectifs validés en amont. Les résultats du référencement SEO apparaissent sur le long terme, c’est pourquoi nous vous accompagnons sur la durée."
        />
        <PresentationProjet/>
+       <BlogArticleDroite/>
     </main>
 </template>
   

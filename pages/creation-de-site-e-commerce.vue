@@ -8,6 +8,7 @@
      />
      <BackImage backImage ="/img/gellini/gellini1.png"/>
      <NosservicesReveal
+     title_reveal="Création de site sur mesure"
       reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Grâce à Novadigital, vous allez pouvoir digitaliser votre boutique, en ayant un site e-commerce dont vous pouvez posséder l’entière gestion. Nous vous accompagnons tout au long de la création de votre site e-commerce jusqu’à la gestion de votre boutique. Nous vous accompagnons dans la gestion de vos produits, et vous formons pour être totalement indépendants." 
       />
       <BackImage backImage ="/img/gellini/gellini2.png"/>
@@ -33,6 +34,8 @@
      text5="Nous développons votre site web en tenant compte du référencement. Pour des résultats concrets, nous vous accompagnons sur la durée, notamment pour vous permettre de vous positionner en tête des résultats de recherche pour les termes les plus pertinents. Le référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, donc de nouvelles opportunités commerciales."
      />
      <PresentationProjet/>
+     <BlogArticleDroite/>
+
   </main>
 </template>
 

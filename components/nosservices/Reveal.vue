@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-  <h3>Création de site <br> sur mesure</h3>
+  <h3>{{title_reveal}}</h3>
     <p
       class="content__title content__title--left"
       data-splitting
@@ -22,6 +22,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default {
 
     props: {
+      title_reveal: {
+        type: String,
+        required: true,
+      },
       reveal: {
         type: String,
         required: true,

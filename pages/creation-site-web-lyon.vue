@@ -8,6 +8,7 @@
        
       <BackImage backImage ="/img/novagraphy/novagraphy3.png"/>
        <NosservicesReveal
+       title_reveal="Création de site sur mesure"
       reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Nous répondons à vos problématiques en vous créant une vitrine virtuelle. Novadigital vous accompagne tout au long de la création de votre site web jusqu’au référencement SEO pour garantir une vie longue terme à votre site vitrine. Il est important d’alimenter régulièrement en termes de contenu votre site web pour le maintenir en forme et optimiser ses chances d’être visible." 
       />
       <BackImage backImage ="/img/studiodino/studiodino3.png"/>
@@ -33,6 +34,8 @@
        text5="Créer un site internet inclut la question de l’hébergement. Nous sommes évidemment présentes pour vous conseiller. Choisir un hébergeur adéquat est impératif pour une bonne expérience sur votre site. Les équipes de l’agence Novadigital s’occupent également des mises à jour récurrentes et assurent la protection et la sécurité de votre site internet."
        />
        <PresentationProjet/>
+       <BlogArticleDroite/>
+
     </main>
 </template>
 

@@ -14,9 +14,9 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
     <ContentDoc />
   </div>
 
-  <div class="otherarticle">
+  <!-- <div class="otherarticle">
   <BlogArticleDroite />
-  </div>
+  </div> -->
 
 
 </div>
@@ -29,21 +29,31 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   display: flex;
 }
 .article{
-  width: 75%;
-  padding: 5% 15%;
+  width: 45%;
+  margin: 5% auto;
+  /* padding: 5% 15%; */
+}
+.article img{
+ width: 100%;
+  
 }
 .article h1{
-  font-size: 45px;
-  margin: 2vh 0;
+  font-size: 55px;
+  margin: 5vh 0;
+  text-align: center;
 }
 .article h2{
-  font-size: 30px;
-  margin: 2vh 0;
+  font-size: 35px;
+  margin: 3vh 0;
+  font-weight: 500;
+
 }
 .article h3{
   font-size: 25px;
   margin: 2vh 0;
-  text-decoration: underline;
+  font-weight: 500;
+
+  /* text-decoration: underline; */
 }
 .article h4{
   font-size: 25px;
@@ -55,11 +65,10 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   margin: 2vh 0;
   text-decoration: underline;
 }
-.article img{
-  width: 100%;
-}
+
 .article p{
   margin-bottom: 5vh;
+  line-height: 26px;
 }
 .otherarticle{
   width: 25%;

@@ -32,29 +32,41 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 </template>
 
 <style scoped>
-.blog{
+.blog {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: flex-start;
-
+  flex-flow: column wrap;
+  align-content: space-between;
+  /* Your container needs a fixed height, and it 
+   * needs to be taller than your tallest column. */
+   padding: 0 2%;
+  height: 4000px; 
 }
 
-.articles {
-  /* padding: 1%; */
-  margin: 5% 0;
-  display: flex;
-  background-color: var(--color-secondaire);
-  color: var(--color-bg);
-  width: 32vw;
-  align-items: baseline;
+.card {
+  width: 32%;
+  margin-bottom: 2%; /* Optional */
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
 
+/* Re-order items into 3 rows */
+.card:nth-child(3n+1) { order: 1; }
+.card:nth-child(3n+2) { order: 2; }
+.card:nth-child(3n)   { order: 3; }
+
+/* Force new columns */
+.blog::before,
+.blog::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
 }
 .imageliste{
-  width: 32vw;
+  width: 100%;
 }
 .media{
-  width: 32vw;
+  width: 100%;
   padding: 8%;
 }
 .titleArticle{
@@ -64,21 +76,25 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 @media screen and (max-width: 1024px) {
   /* tablettte */
 
-  .articles {
-  
-  width: 100%;
-}
-.imageliste{
-  width: 100%;
-}
-.media{
-  width: 100%;
-  padding: 8%;
-}
 
 }
 
 @media screen and (max-width: 767px) {
   /* mobile */
+
+  .blog {
+  display: flex;
+  flex-direction: column;
+  flex-flow:  wrap;
+  align-content: flex-start;
+  gap: 30px;
+  padding: 0 5%;
+  height: 4000px; 
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 0; /* Optional */
+}
 }
 </style>

@@ -9,7 +9,8 @@
        <BackImage backImage ="/img/inflib/inflib3.png"/>
 
        <NosservicesReveal
-      reveal="L’agence web à Lyon qui vous propose des sites innovants et créatifs qui répondent aux besoins de vos utilisateurs. Grâce à Novadigital, vous allez pouvoir digitaliser votre boutique, en ayant un site e-commerce dont vous pouvez posséder l’entière gestion. Nous vous accompagnons tout au long de la création de votre site e-commerce jusqu’à la gestion de votre boutique. Nous vous accompagnons dans la gestion de vos produits, et vous formons pour être totalement indépendants." 
+      title_reveal="Augmenter sa visibilité "
+      reveal="Le SEO est une stratégie à long terme qui nécessite un travail régulier et soutenu pour maintenir un bon positionnement sur les moteurs de recherche. En utilisant des techniques de référencement telles que la recherche de mots-clés, l'optimisation de contenu, la création de backlinks et l'amélioration de la structure de votre site web. Améliorer votre visibilité en ligne grâce au SEO peut vous aider à attirer des visiteurs qualifiés sur votre site web, améliorer votre positionnement sur les moteurs de recherche, augmenter vos chances de conversion et de vente, et offrir un retour sur investissement potentiellement plus élevé à long terme." 
       />
       <BackImage backImage ="/img/gellini/gellini4.png"/>
       <NosservicesNotreplus
@@ -34,6 +35,8 @@
        text5="Le résultat du référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, potentiellement de nouvelles opportunités commerciales et une augmentation du chiffre d’affaires. Cela varie essentiellement en fonction des objectifs validés en amont. Les résultats du référencement SEO apparaissent sur le long terme, c’est pourquoi nous vous accompagnons sur la durée."
        />
        <PresentationProjet/>
+       <BlogArticleDroite/>
+
     </main>
 </template>
   
