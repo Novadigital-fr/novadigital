@@ -30,12 +30,18 @@
       />
   
     </div>
-  </template>
+</template>
   
   <script setup>
   definePageMeta({
     layout: "custom",
   });
+  useHead({
+  title: "Création sur mesure d'un site sur mesure pour studio dino",
+  meta: [
+    { name: 'description', content: " Projet de création d'un site sur mesure pour l'entreprise studio dino. " }
+  ],
+  })
   </script>
   
   <style lang="scss" scoped>

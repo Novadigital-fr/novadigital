@@ -6,7 +6,7 @@ image: /img/photo9.jpg
 
 # Comment installer Wordpress en local ? 2023 : Guide complet
 
-![photo5](/img/photo9.png)
+![photo5](/img/photo9.jpg)
 
 ### introduction :
 

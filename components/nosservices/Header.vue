@@ -115,7 +115,7 @@ margin: 0 5%;
 
 }
   .animated-title {
-  font-size: 50px;
+  font-size: 40px;
   width: 100%;
   padding-bottom: 5%;
 

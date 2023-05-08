@@ -35,6 +35,12 @@
   definePageMeta({
     layout: "custom",
   });
+  useHead({
+  title: "Création d'une application mobile Novalinguo",
+  meta: [
+    { name: 'description', content: "Projet de création d'une application mobile en flutter Novalinguo " }
+  ],
+  })
   </script>
   
   <style lang="scss" scoped>

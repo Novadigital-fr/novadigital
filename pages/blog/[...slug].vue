@@ -96,6 +96,22 @@ flex-direction: column;
 
 @media screen and (max-width: 767px) {
   /* mobile */
+  .article h1{
+  font-size: 25px;
+}
+.article h2{
+  font-size: 25px;
+  margin: 3vh 0;
+  font-weight: 500;
+
+}
+.article h3{
+  font-size: 22px;
+  margin: 2vh 0;
+  font-weight: 500;
+
+  /* text-decoration: underline; */
+}
 }
 
 </style>

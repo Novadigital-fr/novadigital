@@ -34,6 +34,12 @@
   definePageMeta({
     layout: "custom",
   });
+  useHead({
+  title: "Création sur mesure d'un site vitrine pour Novacharpente",
+  meta: [
+    { name: 'description', content: " Projet de création d'un site vitrine pour l'entreprise novacharpente. " }
+  ],
+  })
   </script>
   
   <style lang="scss" scoped>

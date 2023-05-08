@@ -88,6 +88,7 @@ export default {
   
   .animated-title {
     font-size: 18vw;
+    padding-bottom: 18vh;
   }
 }
 </style>

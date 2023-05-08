@@ -34,6 +34,12 @@
   definePageMeta({
     layout: "custom",
   });
+  useHead({
+  title: "Création sur mesure d'un site vitrine pour inf-lib",
+  meta: [
+    { name: 'description', content: " Projet de création d'un site vitrine pour inf-lib " }
+  ],
+  })
   </script>
   
   <style lang="scss" scoped>

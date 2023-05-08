@@ -39,6 +39,12 @@
 definePageMeta({
   layout: "custom",
 });
+useHead({
+  title: "Projet de création de site e-commerce pour Gellini ",
+  meta: [
+    { name: 'description', content: "Projet de création d'un site e-commerce pour la marque de veletement gellini." }
+  ],
+  })
 </script>
 
 <style lang="scss" scoped>

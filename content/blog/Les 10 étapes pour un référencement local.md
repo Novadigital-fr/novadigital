@@ -6,7 +6,7 @@ image: /img/photo5.jpg
 
 # Les 10 étapes pour optimiser son référencement local
 
-![photo5](/img/novagraphy3.png)
+![photo5](/img/novagraphy/novagraphy3.png)
 
 Meta description: Découvrez les 10 étapes essentielles pour optimiser le référencement local de votre entreprise. Suivez ces étapes et augmentez votre visibilité sur les moteurs de recherche.
 

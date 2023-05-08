@@ -30,6 +30,7 @@
 <style scoped>
 .full{
   background-color: var(--color-text);
+  /* color: var(--color-text); */
 
 }
 .header {
