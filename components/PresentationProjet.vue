@@ -18,13 +18,13 @@
 					<div class="column-wrap">
 						<div class="column">
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/novagraphy/novagraphy1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy2.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/novagraphy/novagraphy2.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy3.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/novagraphy/novagraphy3.png)"></div>
 							</div>
 							<div class="column__item">
 								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy4.png)"></div>
@@ -33,26 +33,26 @@
 								<div class="column__item-img" style="background-image:url(img/gellini/gellini2.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy2.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/novagraphy/novagraphy2.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/novagraphy/novagraphy3.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/novagraphy/novagraphy3.png)"></div>
 							</div>
 						</div><!-- /column -->
 					</div><!-- /column-wrap -->
 					<div class="column-wrap">
 						<div class="column">
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/studiodino/studiodino1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/gellini/gellini1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino3.png)"></div>
+								<div class="column__item-img " style="background-image:url(img/studiodino/studiodino3.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino4.png)"></div>
+								<div class="column__item-img " style="background-image:url(img/studiodino/studiodino4.png)"></div>
 							</div>
 							<div class="column__item">
 								<div class="column__item-img" style="background-image:url(img/novalingo/novalingo1.png)"></div>
@@ -61,20 +61,20 @@
 								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino3.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/studiodino/studiodino3.png)"></div>
 							</div>
 						</div><!-- /column -->
 					</div>
 					<div class="column-wrap">
 						<div class="column">
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/gellini/gellini1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/gellini/gellini1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/gellini/gellini1.png)"></div>
 							</div>
 							<div class="column__item">
 								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
@@ -89,10 +89,10 @@
 								<div class="column__item-img" style="background-image:url(img/gellini/gellini1.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/inflib/inflib3.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/inflib/inflib3.png)"></div>
 							</div>
 							<div class="column__item">
-								<div class="column__item-img" style="background-image:url(img/studiodino/studiodino3.png)"></div>
+								<div class="column__item-img tel" style="background-image:url(img/studiodino/studiodino3.png)"></div>
 							</div>
 						</div><!-- /column -->
 					</div><!-- /column-wrap -->
@@ -384,7 +384,7 @@ body {
 }
 
 .section--columns {
-	position: fixed;
+	position: sticky;
 	left: 0;
 	top: 0;
 	right: 0;
@@ -392,6 +392,7 @@ body {
 	z-index: -1;
 	width: 100%;
 	height: 100vh;
+	overflow-y: hidden;
 }
 
 .columns {
@@ -570,6 +571,11 @@ body {
 		justify-self: end;
 		grid-column: revert;
 	}
+}
+@media screen and (max-width: 767px) {
+.tel{
+	display: none;
+}
 }
 
 </style>

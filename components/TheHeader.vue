@@ -66,7 +66,7 @@ ul {
 header {
 	opacity: 1; /* rendre la div visible en changeant l'opacité à 1 */
   background-color: var(--color-text);
-  /* animation: slide-in-from-top 1s ease-in-out; */
+  animation: slide-in-from-top 1s ease-in-out;
   }
   /* définir l'animation de fondu enchaîné */
   @keyframes slide-in-from-top {

@@ -13,7 +13,9 @@
         </h2>
         <p>
           Notre agence web propose des <b> création de site vitrine </b> sur mesure vous offre une solution personnalisée pour représenter votre entreprise en ligne. <br><br> Nous mettons à votre disposition notre expertise pour concevoir un <b>site web unique et professionnel</b>  qui répondra aux besoins spécifiques de votre entreprise.
-          <Button link="/creation-site-web-lyon"/>
+          <NuxtLink to="/creation-de-site-e-commerce">
+        <Button text="Site vitrine" />
+        </NuxtLink>
         </p>
         
       </div>
@@ -26,7 +28,9 @@
         </h2>
         <p>
           Notre service de <b> création de site e-commerce sur mesure</b> vous permet de vendre vos produits en ligne de manière efficace et professionnelle. <br> <br> Nous vous offrons une solution personnalisée qui vous permettra de gérer facilement votre <b> boutique en ligne </b>et de maximiser vos ventes
-          <Button link="/creation-de-site-e-commerce"/>
+          <NuxtLink to="/creation-de-site-e-commerce">
+        <Button text="E-commerce" />
+        </NuxtLink>
         </p>
       </div>
       <div class="image">
@@ -44,7 +48,9 @@
         </h2>
         <p>
           Notre service de <b>référencement SEO</b>  vous permet d'améliorer la visibilité de votre site web sur les moteurs de recherche tels que Google. <br> <br>Avec notre service, vous pouvez être sûr que votre <b> site web </b>sera bien positionné pour atteindre votre public cible.
-          <Button link="/agence-de-referencement-seo"/>
+          <NuxtLink to="/creation-de-site-e-commerce">
+        <Button text="Visibilité" />
+        </NuxtLink>
         </p>
       </div>
     </div>

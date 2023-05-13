@@ -1,70 +1,129 @@
 <template>
-  <div>
-    <div class="menu">
-      <NuxtLink :to="link" class="link">
-        <div>
-          <p class="MnotreProcede">En savoir plus</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="57.657"
-            height="57.657"
-            viewBox="0 0 57.657 57.657"
-          >
-            <defs></defs>
-            <g transform="translate(-13057.099 -5086.941)">
-              <path
-                class="a"
-                d="M52,4H-4V-4H52Z"
-                transform="translate(13062.756 5090.941)"
-              />
-              <path
-                class="a"
-                d="M51.766,4H-4V-4H51.766Z"
-                transform="translate(13110.756 5091.059) rotate(90)"
-              />
-              <path
-                class="a"
-                d="M0,47.657-5.657,42,42-5.657,47.657,0Z"
-                transform="translate(13062.756 5096.941)"
-              />
-            </g>
-          </svg>
-        </div>
-      </NuxtLink>
-    </div>
+  <div class="container">
+      <button class="learn-more">
+  <span class="circle" aria-hidden="true">
+    <span class="icon arrow"></span>
+  </span>
+  <span class="button-text">{{text}}</span>
+</button>
   </div>
 </template>
 
 <script>
 export default {
-  props: {
-    link: {
-      type: String,
-      required: true,
-    },
-  },
-};
+
+props: {
+text: {
+  type: String,
+  required: true,
+},
+}
+}
 </script>
 
-<style scoped>
-.menu {
-  margin-top: 5%;
-  width: 100%;
+<style lang="scss" scoped>
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+transition: $property $duration $ease;
 }
-.menu:hover {
-  transition: 0.5s;
-  background-color: var(--color-secondaire);
+
+
+button {
+position: relative;
+display: inline-block;
+margin: 20px 0;
+cursor: pointer;
+outline: none;
+border: 0;
+vertical-align: middle;
+text-decoration: none;
+background: transparent;
+padding: 0;
+font-size: inherit;
+font-family: inherit;
+&.learn-more {
+  width: 12rem;
+  height: auto;
+  .circle {
+    @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: var(--color-bg);
+    border-radius: 1.625rem;
+    .icon {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: var(--color-text);
+      &.arrow {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        left: 0.625rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+        &::before {
+          position: absolute;
+          content: '';
+          top: -0.25rem;
+          right: 0.0625rem;
+          width: 0.625rem;
+          height: 0.625rem;
+          border-top: 0.125rem solid #fff;
+          border-right: 0.125rem solid #fff;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+  .button-text {
+    @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+    position: absolute;
+    top: 0;
+    left: -20px;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: var(--color-bg);
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+  }
 }
-.menu div {
-  border-bottom: solid 1px;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0 10px 0;
-  z-index: 5;
-  fill: currentColor;
+&:hover {
+  .circle {
+    width: 100%;
+    .icon {
+      &.arrow {
+      background: var(--color-text);
+      transform: translate(1rem, 0);
+      }
+    }
+  }
+  .button-text {
+    color: var(--color-text);
+  }
 }
-.menu div svg {
-  width: 20px;
-  height: 20px;
 }
+
+@supports (display: grid) {
+body {
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 0.625rem;
+grid-template-areas: ". main main ." ". main main .";
+}
+
+#container {
+  grid-area: main;
+  align-self: center;
+  justify-self: center;
+}
+}
+
 </style>
