@@ -57,12 +57,12 @@
 
   }
   .animated-title {
-  font-size: 4vw;
+  font-size: 3.5vw;
     width: 50%;
     margin-right: 10%;
   }
   .description{
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     width: 50%;
 
   }

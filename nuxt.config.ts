@@ -1,6 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content','@nuxtjs/robots'],
+  modules: ['@nuxt/content','@nuxtjs/robots','nuxt-simple-sitemap',],
+
   build: {
     transpile: ['gsap'],
   },
@@ -32,6 +33,9 @@ export default defineNuxtConfig({
         },
 
       ],
+      
     }
   },
+  
+  
 })
