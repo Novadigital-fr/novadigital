@@ -7,6 +7,9 @@
       <ProjetPresentation
       projetReveal="Le projet a consisté en la création d'un site web sur mesure pour le studio de graphisme 'Studio Dinos'. L'objectif principal était de concevoir un site web moderne, attractif et facile à naviguer, qui mettrait en valeur le travail et les réalisations du studio."
       />
+      <a href="https://studiodino.club/">
+        <Button class="bouton_projet" text="Site web" />
+    </a>
       <ProjetDeuxieme
       image ="/img/studiodino/studiodino1.png"
       title ="La phase de conception"

@@ -1,9 +1,14 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content','@nuxtjs/robots','nuxt-simple-sitemap',],
+  modules: ['@nuxt/content','@nuxtjs/robots',],
 
   build: {
     transpile: ['gsap'],
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   },
   app: {
     head: {

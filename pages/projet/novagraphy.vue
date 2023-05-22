@@ -7,6 +7,9 @@
       <ProjetPresentation
       projetReveal="Le projet a consisté en la création d'un site web sur mesure pour le studio de photographie 'Novagraphy'. L'objectif principal était de concevoir un site web créatif, original et inspirant qui mettrait en avant le travail et le talent des photographes du studio."
       />
+      <a href="https://alexisrittimann.com/">
+        <Button class="bouton_projet" text="Site web" />
+    </a>
       <ProjetDeuxieme
       image ="/img/novagraphy/novagraphy1.png"
       title ="Développement Créatif"

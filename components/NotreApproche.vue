@@ -8,11 +8,12 @@
       </div>
       <div class="content">
         <h2 class="animation">
-          Création de site vitrine <br />
-          sur mesure
+          Agence de création <br> de site vitrine
         </h2>
         <p>
-          Notre agence web propose des <b> création de site vitrine </b> sur mesure vous offre une solution personnalisée pour représenter votre entreprise en ligne. <br><br> Nous mettons à votre disposition notre expertise pour concevoir un <b>site web unique et professionnel</b>  qui répondra aux besoins spécifiques de votre entreprise.
+          Notre agence web située à Lyon s’occupe de la création de site vitrine sur mesure en vous offrant une solution personnalisée pour représenter aux mieux votre entreprise.
+<br><br>
+Nous mettons à votre disposition notre expertise pour concevoir un site web unique et professionnel qui répondra aux besoins spécifiques de vos utilisateurs.
           <NuxtLink to="/creation-site-web-lyon">
         <Button text="Site vitrine" />
         </NuxtLink>
@@ -23,11 +24,10 @@
     <div class="proceder2">
       <div class="content2">
         <h2 class="animation">
-          Solution e-commerce <br />
-          sur mesure
+          Agence de création <br> de site e-commerce
         </h2>
         <p>
-          Notre service de <b> création de site e-commerce sur mesure</b> vous permet de vendre vos produits en ligne de manière efficace et professionnelle. <br> <br> Nous vous offrons une solution personnalisée qui vous permettra de gérer facilement votre <b> boutique en ligne </b>et de maximiser vos ventes
+          Créer votre site e-commerce vous permettra de vendre efficacement vos produits en ligne. Nous vous offrons une solution personnalisée de création afin de maximiser l’expérience de votre boutique e-commerce et de grossir vos ventes.
           <NuxtLink to="/creation-de-site-e-commerce">
         <Button text="E-commerce" />
         </NuxtLink>
@@ -43,11 +43,10 @@
       </div>
       <div class="content">
         <h2 class="animation">
-          Augmenter votre visibilité <br />
-          grace au SEO
+          Agence de référencement <br> naturel SEO
         </h2>
         <p>
-          Notre service de <b>référencement SEO</b>  vous permet d'améliorer la visibilité de votre site web sur les moteurs de recherche tels que Google. <br> <br>Avec notre service, vous pouvez être sûr que votre <b> site web </b>sera bien positionné pour atteindre votre public cible.
+          Nous développons votre site web en tenant compte du SEO afin que vous ayez une bonne visibilité sur les moteurs de recherche. Nous pouvons également intervenir sur des sites existants, afin de référencer votre site web pour votre cible.
           <NuxtLink to="/agence-de-referencement-seo">
         <Button text="Visibilité" />
         </NuxtLink>
@@ -116,7 +115,7 @@
   font-size: 50px;
   background-color: var(--color-text);
   margin-left: 5vw;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 .content p {
   margin: 5% 0 0 20vw;
@@ -129,7 +128,7 @@
   font-size: 50px;
   background-color: var(--color-text);
   margin-left: 15vw;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 .content2 p {
   margin: 5% 0 0 38vw;

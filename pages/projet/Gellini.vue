@@ -7,6 +7,10 @@
     <ProjetPresentation
     projetReveal="Notre agence web a eu l'opportunité de travailler sur un projet passionnant de création d'un site e-commerce pour la marque de vêtements féminins, Gellini. Le défi était de concevoir un site à la hauteur de la réputation de la marque et de fournir une expérience de shopping en ligne unique pour les clients. Nous avons travaillé en étroite collaboration avec l'équipe de Gellini pour comprendre leurs besoins et leurs attentes, afin de créer un site qui reflète l'esthétique de la marque tout en offrant une navigation intuitive."
     />
+   <a href="https://gellini.fr/">
+        <Button class="bouton_projet" text="Site web" />
+    </a>
+ 
     <ProjetDeuxieme
     image ="/img/gellini/gellini2.png"
     title ="Conception et développement sur mesure"

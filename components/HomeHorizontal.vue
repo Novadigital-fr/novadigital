@@ -37,70 +37,37 @@
     <section class="panel">
       <div>
         <img src="../assets/img/1.svg" alt="" />
-        <h3>Compréhension des besoins</h3>
+        <h3>Compréhension de vos besoins</h3>
         <p>
-          Nous définissons avec vous, vos besoins et attentes afin d'en conclure
-          des objectifs communs. <br /><br />
-          Cette phase d'introduction nous est essentielle pour la m répondre à
-          toutes vos questions
+          Avec un membre de notre agence digitale, nous définissons ensemble vos besoins et attentes afin d'en conclure des objectifs communs. Cette phase d'introduction nous est essentielle pour vous proposer le développement qui vous correspond au mieux. Nous sommes ouverts à toutes vos interrogations concernant la création de votre site web.
         </p>
       </div>
     </section>
     <section class="panel">
       <div>
         <img src="../assets/img/2.svg" alt="" />
-        <h3>Recherche, idéation et maquette</h3>
+        <h3>Création et webdesign du site web</h3>
         <p>
-          Chaque projet est unique et c'est pour cela qu'on nous passons par une
-          phase de recherche afin de bien comprendre vos futurs utilisateurs.
-          <br /><br />
-          Par la suite, nous entamons une phase d'idéation et nous vous
-          procurons un prototype représentatif de votre projet
+          Chaque projet est unique. C'est pour cela que notre agence effectue des recherches afin de bien comprendre votre future cible. Par la suite, nous vous présenterons un webdesign sur mesure, adapté au brief en vue en amont. Ce prototype, personnalisé de votre futur site internet, est la première ébauche du projet.
         </p>
       </div>
     </section>
-    <section class="panel">
-      <div>
-        <img src="../assets/img/3.svg" alt="" />
-        <h3>Retours et modifications</h3>
-        <p>
-          Une fois le prototype réceptionné par vos soins, vous êtes libre de
-          nous faire des retours.
-          <br /><br />
-          Nous procédons aux modifications afin d'améliorer en continuité votre
-          projet. Nous mettons en place un maximum d’échange entre vous et nous
-          afin que votre projet répond à vos exigences
-        </p>
-      </div>
-    </section>
+    
     <section class="panel">
       <div>
         <img src="../assets/img/4.svg" alt="" />
-        <h3>Intégration et développement</h3>
+        <h3>Développement du site internet</h3>
         <p>
-          L'une des dernières grandes étapes est l'intégration du prototype une
-          fois la validation des deux parties.
-          <br /><br />
-          Cela consiste développer votre site, intégrer votre base de donnée,
-          réaliser des éléments graphiques, puis mettre votre site en ligne afin
-          qu'il soit utilisable
+          L’intégration web, l’une des grandes étapes de votre projet. Cela consiste à développer votre site internet, intégrer votre base de données, gérer votre nom de domaine, puis mettre votre site en ligne afin qu'il soit utilisable. Vous pouvez maintenant accéder à votre site web sur les différents moteurs de recherche.
         </p>
       </div>
     </section>
     <section class="panel">
       <div>
         <img src="../assets/img/1.svg" alt="" />
-        <h3>Accompagnement sur du SEO</h3>
+        <h3>Accompagnement référencement SEO</h3>
         <p>
-          En investissant dans une prestation SEO professionnelle, vous pouvez
-          améliorer considérablement la visibilité de votre site Web auprès de
-          votre public cible. <br />
-          <br />
-          Cela peut se traduire par une augmentation du trafic qualifié sur
-          votre site, ce qui peut se transformer en de nouvelles opportunités
-          commerciales. Avec une optimisation SEO appropriée, vous pouvez vous
-          positionner en tête des résultats de recherche pour les termes de
-          recherche pertinents.
+          Nous développons votre site web en tenant compte du référencement naturel. Pour des résultats concrets, nous vous accompagnons sur la durée, notamment pour vous permettre d'être positionné en tête des résultats de recherche pour les termes les plus pertinents. Le référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, donc de nouvelles opportunités commerciales.
         </p>
       </div>
     </section>

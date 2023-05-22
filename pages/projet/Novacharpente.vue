@@ -7,6 +7,9 @@
       <ProjetPresentation
       projetReveal="Novadigital, une agence web spécialisée dans la création de sites vitrine sur mesure, est fière de présenter son projet de conception et développement du site vitrine pour Novacharpente. Novacharpente, une entreprise de charpente réputée dans la région, cherchait à améliorer sa présence en ligne et à atteindre un public plus large grâce à un site web professionnel. Ils se sont tournés vers Novadigital pour obtenir une solution sur mesure."
       />
+      <a href="https://novacharpente.com/">
+        <Button class="bouton_projet" text="Site web" />
+    </a>
       <ProjetDeuxieme
       image ="/img/novacharpente/novacharpente2.png"
       title ="Conception du site Novacharpente"

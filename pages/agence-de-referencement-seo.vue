@@ -47,7 +47,7 @@
   useHead({
   title: 'Votre agence de référencement naturel SEO - Novadigital',
   meta: [
-    { name: 'description', content: " Notre agence de référencement naturel SEO situé à Lyon développe votre site web en tenant compte du SEO afin que vous ayez une bonne visibilité sur les moteurs de recherche. Dès la conception du site, nous tenons compte du référencement naturel. Notre agence web agit sur la ville de Lyon et ses alentours. L’agence de référencement intervient également sur des sites existants, afin de référencer votre site web pour votre cible. L’agence de référencement naturel SEO Novadigital développe votre site web en tenant compte du référencement naturel. Pour des résultats concrets, nous vous accompagnons sur la durée, notamment pour vous permettre d’être positionné en tête des résultats de recherche pour les termes les plus pertinents. Le résultat du référencement naturel (SEO) peut se traduire par une augmentation du trafic qualifié sur votre site web, potentiellement de nouvelles opportunités commerciales et une augmentation du chiffre d’affaires. Nous sommes ouverts à toutes vos interrogations concernant l’accompagnement SEO." }
+    { name: 'description', content: "Notre agence web et de référencement naturel SEO situé à Lyon, développe votre site web avec une stratégie SEO et s’occupe de votre référencement" }
   ],
   })
   

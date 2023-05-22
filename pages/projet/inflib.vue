@@ -7,6 +7,9 @@
       <ProjetPresentation
       projetReveal="Le projet a consisté en la création d'un site web sur mesure pour le cabinet d'infirmières libérales 'Inf-Lib'. L'objectif principal était de concevoir un site web moderne, attractif et facile à naviguer, qui présenterait les services proposés par le cabinet et permettrait aux patients de prendre rendez-vous en ligne."
       />
+      <a href="https://inf-lib.fr/">
+        <Button class="bouton_projet" text="Site web" />
+    </a>
       <ProjetDeuxieme
       image ="/img/inflib/inflib1.png"
       title ="Conception et développement sur mesure"

@@ -6,7 +6,7 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 
 <template>
   <div class="partie_blog">
-    <h3 class="title_blog">Nos articles</h3>
+    <h2 class="title_blog">Nos articles</h2>
 
   <div class="blog">
 
@@ -34,9 +34,14 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 </div>
 <div class="bottom">
 <div class="left">
-<p>Tenez-vous informé des dernières actualités grâce au blog de Novadigital, qui propose des articles, des conseils approfondies et des contenus exclusifs </p>
-<NuxtLink to="/notreblog" class="link link--metis"> Nos articles</NuxtLink>
+<p>Tenez-vous informé des dernières actualités grâce au blog de Novadigital, qui propose des articles, des conseils approfondies et des contenus exclusifs 
+
+</p>
+<NuxtLink to="/notreblog">
+        <Button class="bouton" text="Nos articles" />
+        </NuxtLink>
 </div>
+
 <div class="right"></div>
 </div>
 </div>
@@ -46,8 +51,8 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 
 .partie_blog{
   padding: 10vh 1vw;
-  // background-color: var(--color-bg);
-  // color: var(--color-text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 .title_blog{
   font-size: 4vw;
@@ -129,6 +134,9 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 .link--metis:hover::before {
   transform-origin: 0% 50%;
   transform: scale3d(1, 1, 1);
+}
+.bouton{
+  margin-left: -50px !important;
 }
 
 @media screen and (max-width: 1024px) {

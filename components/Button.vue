@@ -51,7 +51,7 @@ font-family: inherit;
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: var(--color-bg);
+    background: var(--color-secondaire);
     border-radius: 1.625rem;
     .icon {
       @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
@@ -89,7 +89,7 @@ font-family: inherit;
     bottom: 0;
     padding: 0.75rem 0;
     margin: 0 0 0 1.85rem;
-    color: var(--color-bg);
+    color: var(--color-secondaire);
     font-weight: 500;
     line-height: 1.6;
     text-align: center;

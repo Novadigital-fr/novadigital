@@ -10,11 +10,11 @@
     </div>
     <div class="footer">
  <div class="mail">
- <h6>E-mail</h6>
+ <p class="h6">E-mail</p>
  <a href="mailto:contact@novadigital.fr"><p>contact@novadigital.fr</p></a>
  </div>
  <div>
- <h6>Telephone</h6>
+ <p class="h6">Telephone</p>
  <p>06 42 77 23 85</p>
  </div>
     </div>
@@ -38,7 +38,7 @@
     justify-content: center;
     padding-left: 4%;
 }
-.footer h6 {
+.footer .h6 {
     font-size: 30px;
     font-weight: 300;
 }
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 767px) {
     /* mobile */
-    .footer h6 {
+    .footer .h6 {
     font-size: 20px;
 }
 .footer p {

@@ -2,8 +2,8 @@
   <div class="full">
     <div class="header">
       <div class="titre">
-        <h3 class="title">NOVADIGITAL</h3>
-        <h1>Agence web lyon novadigital</h1>
+        <p class="title">NOVADIGITAL</p>
+        <h1>Agence web lyon Novadigital</h1>
       </div>
       <div class="categorie">
         <h2>Agence web lyon</h2>

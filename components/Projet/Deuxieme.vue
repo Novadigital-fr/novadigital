@@ -3,7 +3,7 @@
         <div class="top" :style="{ backgroundImage: `url(${image})` }"></div>
         <div class="bottom">
         <div class="left">
-            <h3>{{title}}</h3>
+            <h2>{{title}}</h2>
         </div>
         <div class="right">
             <p>
@@ -75,7 +75,7 @@ padding: 25vh 10vw;
           margin-bottom: 5vh;
 
   }
-        h3{
+        h2{
             font-size: 60px;
             @media (max-width: 900px) {
               font-size: 40px;

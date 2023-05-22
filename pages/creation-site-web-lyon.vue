@@ -46,7 +46,7 @@ definePageMeta({
 useHead({
   title: 'Votre agence de création de site web à Lyon - Novadigital',
   meta: [
-    { name: 'description', content: "Novadigital est spécialisée dans la création et dans le développement du site web. Création de site vitrine et site e-commerce. Notre agence web agit sur la ville de Lyon et ses alentours. Notre agence web met à disposition son expertise pour concevoir des sites web qui reflètent votre identité et qui répondent aux besoins spécifiques de vos utilisateurs. Du webdesign au développement web, nous faisons de la conception de sites vitrine et e-commerce. Comment notre agence procède ? Nous vous présenterons un webdesign sur mesure, adapté au brief en vue en amont. Ce prototype, personnalisé de votre futur site internet, est la première ébauche du projet. Puis arrive l’intégration web, l’une des grandes étapes de votre projet. Cela consiste à développer votre site internet, de gérer votre nom de domaine, puis mettre votre site en ligne afin qu'il soit utilisable. Créer votre site vitrine grâce à notre agence web situé à Lyon vous permettra d’avoir une place considérable sur Internet. Novadigital vous offre une solution personnalisée de vous créer une place en ligne et soigner votre e-réputation." }
+    { name: 'description', content: "Novadigital, agence digitale spécialisée pour création de site vitrine, site e-commerce et d’application mobile situé à Lyon et alentours " }
   ],
 })
 

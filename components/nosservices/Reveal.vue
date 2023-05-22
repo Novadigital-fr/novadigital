@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-  <h3>{{title_reveal}}</h3>
+  <h2>{{title_reveal}}</h2>
     <p
       class="content__title content__title--left"
       data-splitting
@@ -99,7 +99,7 @@ export default {
   /* font-size: 30px;
   width: 80%; */
 }
-h3{
+h2{
   font-size: 4vw;
 }
 @media screen and (max-width: 767px) {
@@ -111,7 +111,7 @@ h3{
 
 
 }
-h3{
+h2{
   margin:0 5%;
   font-size: 40px;
 }

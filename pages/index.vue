@@ -16,9 +16,9 @@
 <script setup>
 
 useHead({
-  title: 'Agence web lyon novadigital',
+  title: 'Votre agence web à Lyon - Création de site web - Novadigital',
   meta: [
-    { name: 'description', content: 'Nous sommes une agence jeune et dynamique proposant des sites innovants et créatifs qui représentent les valeurs et les demandes de nos clients.' }
+    { name: 'description', content: 'Notre agence web situé Lyon est spécialisée dans le développement de solution digitale. Création de site vitrine, site e-commerce et d’application mobile.' }
   ],
 })
 

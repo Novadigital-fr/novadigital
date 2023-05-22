@@ -100,9 +100,9 @@
 			</section>
 			<section class="section section--showcase">
 				<header class="section__header">
-					<span class="section__year">2000</span>
-					<h2 class="section__title section__title--medium">Projets <br> Sélectionnés</h2>
-					<span class="section__year">2022</span>
+					<span class="section__year">2020</span>
+					<p class="section__title section__title--medium">Projets <br> Sélectionnés</p>
+					<span class="section__year">2023</span>
 				</header>
 				<div class="row">
                     <NuxtLink to="/projet/novagraphy">
@@ -200,9 +200,9 @@
                     </NuxtLink>
 				</div>
 			</section>
-            <NuxtLink to="/nosprojets"><p class="decouvrir">Découvrir tous nos projets
-                <svg width="32px" height="32px" viewBox="0 0 25 10"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path></svg>
-            </p></NuxtLink>
+            <NuxtLink to="/nosprojets">
+        <Button class="bouton" text="Nos projets" />
+        </NuxtLink>
 
 		</main>
     </div>
@@ -351,6 +351,7 @@ body {
 	text-align: center;
 	justify-content: center;
 	padding: 1rem 1vw;
+	margin-top: 10vh;
 	cursor: default;
 }
 
@@ -479,6 +480,8 @@ body {
 .row {
 	text-align: left;
 	width: 100%;
+	border-bottom: solid 1px #dad8d5;
+	padding-bottom: 2vh;
 }
 
 .row__header {
@@ -534,6 +537,11 @@ body {
 
 .row + p {
 	margin-top: 40vh;
+}
+.bouton{
+	padding-left: 20px;
+	margin-top: -100px;
+	margin-bottom: 10vh;
 }
 
 @media screen and (min-width: 53em) {

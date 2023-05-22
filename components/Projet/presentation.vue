@@ -1,15 +1,14 @@
 <template>
   <div class="presentation">
     <div class="left">
-      <h3>Date</h3>
+      <p class="h3">Date</p>
       <p>Octobre 2022</p>
-      <h3>Roles</h3>
+      <p class="h3">Services</p>
       <p>Web design</p>
       <p>Developpement</p>
       <p>Référencement seo</p>
-      <h3>Roles</h3>
-      <p>Web design</p>
-      <p>Developpement</p>
+      <p class="h3">Acteurs</p>
+      <p>Novadigital</p>
     </div>
     <div class="right">
       <p
@@ -19,7 +18,6 @@
       >
      {{ projetReveal }}
       </p>
-      <Button />
 
     </div>
   </div>
@@ -113,7 +111,7 @@ width: 100%;
 padding: 0 4vw 10vh 4vw;
 
     }
-  h3 {
+  .h3 {
     color: var(--color-secondaire);
     padding: 2vh 0 1vh 0;
   }

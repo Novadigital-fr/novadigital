@@ -46,7 +46,7 @@ definePageMeta({
 useHead({
 title: 'Votre agence de création de site e-commerce à Lyon - Novadigital',
 meta: [
-  { name: 'description', content: "Novadigital est spécialisée dans la création et dans le développement du site e-commerce. C’est-à-dire la création de boutique en ligne. Notre agence web agit sur la ville de Lyon et ses alentours. Notre agence web met à disposition son expertise pour concevoir des boutiques en ligne qui reflètent votre identité et qui répondent aux besoins spécifiques de vos utilisateurs. Du webdesign, intégration de la base de données, développement web, parcours client et utilisateur. Comment notre agence procède ? Nous vous présenterons un webdesign sur mesure, adapté au brief vue en amont. Ce prototype, personnalisé de votre futur site internet, est la première ébauche du projet. Cela consiste à développer votre site internet, gérer votre nom de domaine, votre hébergement, puis mettre votre site en ligne afin qu'il soit utilisable. Créer votre site e-commerce grâce à notre agence web situé à Lyon vous permettra de vendre efficacement vos produits en ligne. Novadigital vous offre une solution personnalisée de création afin de maximiser l’expérience de votre boutique e-commerce et de grossir vos ventes." }
+  { name: 'description', content: " L’agence web Novadigital est spécialisée dans la création et dans le développement du site e-commerce. C’est-à-dire la création de boutique en ligne" }
 ],
 })
 
