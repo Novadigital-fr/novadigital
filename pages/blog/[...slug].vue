@@ -4,6 +4,9 @@ const { path } = useRoute()
 const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
 })
+definePageMeta({
+  layout: "blog",
+});
 </script>
 
 <template>
@@ -17,7 +20,7 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   <!-- <div class="otherarticle">
   <BlogArticleDroite />
   </div> -->
-
+<BlogSidebar/>
 
 </div>
 
@@ -30,17 +33,24 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 }
 .article{
   width: 45%;
-  margin: 5% auto;
+  margin: 5% 0 5% 10%;
   /* padding: 5% 15%; */
 }
 .article img{
  width: 100%;
   
 }
+.article pre{
+  background-color: var(--color-bg);
+  padding: 2%;
+  border-radius: 4px;
+  overflow: overlay;
+}
 .article h1{
-  font-size: 55px;
+  font-size: 35px;
   margin: 5vh 0;
-  text-align: center;
+  /* font-weight: 500; */
+  /* text-align: center; */
 }
 .article h2{
   font-size: 35px;
@@ -85,6 +95,8 @@ flex-direction: column;
 .article{
   width: 100%;
   padding: 5% 10%;
+  margin: 0;
+
 }
 .article h1{
   font-size: 30px;

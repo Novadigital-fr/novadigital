@@ -1,44 +1,64 @@
 <template>
   <div>
+    <MenuBurger/>
+
     <header>
       <nav>
-        <ul>
+      <ul id="left">
+      <li>
+        <li class="link link--metis">
+            <NuxtLink to="/">NOVADIGITAL</NuxtLink>
+          </li>
+      </li>
+      </ul>
+        <ul id="droite" >
+          
           <li class="link link--metis">
-            <NuxtLink to="/nosprojets">Projets</NuxtLink>
+            <NuxtLink to="/nosprojets">Nos projets</NuxtLink>
           </li>
           <li class="link link--metis">
-            <NuxtLink to="/">Novadigital</NuxtLink>
+            <NuxtLink to="/notreblog">Nos articles</NuxtLink>
           </li>
-          <li class="link link--metis">
-            <NuxtLink to="/notreblog">Articles</NuxtLink>
+          <li>
+          Nos services
           </li>
         </ul>
       </nav>
     </header>
-  <slot />
+    <slot />
   <TheFooter />
-</div>
+  </div>
 </template>
-
-<script setup>
-
-</script>
 
 <style lang="scss" scoped>
 header{
-  position: fixed;
-  width: 100vw;
-  z-index: 10;
-  // background-color: var(--color-bg);
+  // position: fixed;
+  width: 100%;
+  z-index: 4;
+
+}
+nav{
+  display: flex;
+border-bottom: solid 1px var(--color-bg);
+margin: 0 1vw;
+animation: slide-in-from-top 1s ease-in-out;
+
+
 }
 ul {
-  padding: 0 1vw;
+  padding:  0.8vw 0;
   list-style-type: none;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--color-text);
+  margin: 0;
+  flex-grow: 1;
+}
 
+.unbutton {
+	color: var(--color-text) !important;
+}
+#droite{
+  justify-content: flex-end;
+  gap: 5vw;
 }
 
 .link {
@@ -76,33 +96,27 @@ ul {
 
 header {
 	opacity: 1; /* rendre la div visible en changeant l'opacité à 1 */
-  animation: slide-in-from-top 1s ease-in-out;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   }
-  
   /* définir l'animation de fondu enchaîné */
   @keyframes slide-in-from-top {
-from {
-transform: translateY(-50px);
-}
-to {
-transform: translateY(0);
-}
-
+  from {
+  transform: translateY(-70px);
   }
+  to {
+  transform: translateY(0);
+  }
+}
 
 @media screen and (max-width: 1024px) {
   /* tablettte */
-
-  
-
 }
 
 @media screen and (max-width: 767px) {
   /* mobile */
   ul{
-    padding: 0 5%;
-
+    margin: 0 5%;
   }
-
 }
 </style>

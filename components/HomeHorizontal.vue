@@ -1,5 +1,5 @@
 <template>
-  <div class="home7" ref="container">
+  <div class="home7" id="notreProcede" ref="container">
   <div  id="container" class="container" >
     <div class="menu">
       <a href="#notreProcede" class="link">
@@ -138,8 +138,9 @@ onUnmounted(() => {
 
 .menu {
   text-transform: uppercase;
-  width: 98vw;
+  width: 100vw;
   position: absolute;
+  padding: 0 1vw;
 }
 .menu div {
   border-bottom: solid 1px;

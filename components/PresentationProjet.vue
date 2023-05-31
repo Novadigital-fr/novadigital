@@ -98,7 +98,7 @@
 					</div><!-- /column-wrap -->
 				</div><!-- columns -->
 			</section>
-			<section class="section section--showcase">
+			<section id="projets-selectionnes" class="section section--showcase">
 				<header class="section__header">
 					<span class="section__year">2020</span>
 					<p class="section__title section__title--medium">Projets <br> Sélectionnés</p>

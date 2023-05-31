@@ -18,6 +18,7 @@
     "@nuxtjs/robots": "^3.0.0",
     "@studio-freight/lenis": "^0.2.28",
     "gsap": "^3.11.4",
+    "shiki": "^0.14.2",
     "splitting": "^1.0.6"
   }
 }

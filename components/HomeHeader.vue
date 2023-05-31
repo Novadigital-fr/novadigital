@@ -45,8 +45,8 @@
 }
 
 .Video-principal {
-  margin-top: 5vh;
   width: 100%;
+  padding: 5vh 1vw 0 1vw;
 }
 .categorie {
   margin-right: 5vw;

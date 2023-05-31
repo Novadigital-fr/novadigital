@@ -6,10 +6,8 @@
       <NotreApproche />
       <HomeHorizontal />
       <PresentationProjet/>
-
       <AnimationText />
       <BlogArticleDroite/>
-
 
     </main>
 </template>
@@ -25,7 +23,5 @@ useHead({
 
 </script>
 <style lang="scss" scoped>
-.home{
-  // padding: 0 1vw;
-}
+
 </style>

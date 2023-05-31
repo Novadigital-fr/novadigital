@@ -5,7 +5,7 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 </script>
 
 <template>
-  <div class="partie_blog">
+  <div id="articles" class="partie_blog">
     <h2 class="title_blog">Nos articles</h2>
 
   <div class="blog">
@@ -104,37 +104,11 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
   font-size: 25px;
   margin-bottom: 4%;
 }
-.link {
-  cursor: pointer;
-  position: relative;
-  // white-space: nowrap;
+.link{
+  white-space: normal;
+
 }
 
-.link::before,
-.link::after {
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background: currentColor;
-  top: 100%;
-  left: 0;
-  pointer-events: none;
-}
-.link::before {
-  content: "";
-  /* show by default */
-}
-
-.link--metis::before {
-  transform-origin: 100% 50%;
-  transform: scale3d(0, 1, 1);
-  transition: transform 0.3s;
-}
-
-.link--metis:hover::before {
-  transform-origin: 0% 50%;
-  transform: scale3d(1, 1, 1);
-}
 .bouton{
   margin-left: -50px !important;
 }
@@ -145,6 +119,24 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
   .articles {
   
   width: 100%;
+}
+.blog{
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 30px;
+  align-content: flex-start;
+  width: 100%;
+
+  .card{
+    width: 100%;
+
+  }
+  .titleArticle {
+    width: 100% !important;
+    overflow: inherit;
+  }
+
 }
 .media{
   width: 100%;
@@ -169,5 +161,9 @@ const { data: blogPostList } = useAsyncData("blogPostList", () => {
 
 @media screen and (max-width: 767px) {
   /* mobile */
+
+  .bouton{
+  margin-left: 0px !important;
+}
 }
 </style>
