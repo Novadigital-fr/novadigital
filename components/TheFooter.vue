@@ -197,6 +197,7 @@
       flex-direction: column;
       border: none;
       margin-bottom: 40px;
+      margin-left: 5vw;
    
       p{
         margin-top: 40px;

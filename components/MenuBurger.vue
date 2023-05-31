@@ -240,7 +240,6 @@ body {
 	z-index: 6;
 	background: none;
 	color: var(--color-text);
-	// background-color: #e4641a;
 	width: 150px;
 	height: 40px;
 	border: 0;
@@ -251,9 +250,6 @@ body {
 	font-size: 1rem;
 	top: 0.9vw;
     right: 1vw;
-    @media (max-width: 840px) {
-        left: 90vw;
-    }
 	
 }
 
@@ -335,7 +331,6 @@ body {
 	width: 100vw;
 	height: 100vh;
     stroke-width: 0;
-
 }
 
 .menu {
@@ -344,11 +339,15 @@ body {
 	flex-direction: column;
 	position: relative;
 	// align-items: center;
-padding-left: 35%;
+	padding-left: 35%;
 	justify-content: center;
 	height: 100vh;
     background-color: var(--color-text);
 	z-index: 4;
+	@media (max-width: 867px) {
+		padding-left: 5%;
+	}
+
 
 }
 
@@ -362,7 +361,7 @@ padding-left: 35%;
     position: relative;
     will-change: opacity, transform;
     @media (max-width: 840px) {
-        font-size: 12vw;
+        font-size: 11vw;
 
     }
 }

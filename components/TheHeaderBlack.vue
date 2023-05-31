@@ -11,18 +11,16 @@
         </li>
         </ul>
           <ul id="droite" >
-            <li class="link link--metis service">
+            <li class="link link--metis tel">
+              <NuxtLink to="/nosprojets">Nos projets</NuxtLink>
+            </li>
+            <li class="link link--metis tel">
               <NuxtLink to="/notreblog">Nos articles</NuxtLink>
             </li>
             <li class="link link--metis">
-              <NuxtLink to="/nosprojets">Nos projets</NuxtLink>
-            </li>
-            <li class="link link--metis">
             Nos services
-            </li>
-            
+            </li> 
           </ul>
-    
   
         </nav>
       </header>
@@ -73,7 +71,7 @@
   @media screen and (max-width: 1024px) {
     /* tablettte */
   
-    #droite{
+    .tel{
       display: none;
     }
     nav{
