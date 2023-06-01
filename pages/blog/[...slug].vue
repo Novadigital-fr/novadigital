@@ -40,6 +40,9 @@ definePageMeta({
  width: 100%;
   
 }
+.article p a{
+color: var(--color-secondaire);
+}
 .article pre{
   background-color: var(--color-bg);
   padding: 2%;
