@@ -138,5 +138,5 @@ Les exigences système pour installer WordPress en local en 2023 sont générale
 
 Oui, vous pouvez migrer votre site WordPress en local vers un serveur en ligne une fois que vous avez terminé le développement et les tests. Pour cela, vous devez exporter votre base de données locale, transférer les fichiers WordPress vers le serveur en ligne, créer une nouvelle base de données sur le serveur en ligne, importer les données de la base de données locale sur le serveur en ligne, et mettre à jour les fichiers de configuration de WordPress avec les informations de connexion à la nouvelle base de données.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YXsdWHr93n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/YXsdWHr93n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
