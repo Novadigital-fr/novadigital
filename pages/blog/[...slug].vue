@@ -36,7 +36,7 @@ definePageMeta({
   margin: 5% 0 5% 10%;
   /* padding: 5% 15%; */
 }
-.article img{
+.article img,.article video{
  width: 100%;
   
 }
