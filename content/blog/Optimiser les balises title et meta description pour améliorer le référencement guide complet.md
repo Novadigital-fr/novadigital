@@ -7,7 +7,7 @@ image: /img/blog/article-wordpress-local-1.png
 
 # Comment optimiser les balises title et meta description pour améliorer le référencement
 
-![google seo title et meta description](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7dcd3e6-015b-439c-8266-8bb27eb56a59/site_web_novadigital.jpg)
+![google seo title et meta description]()
 
 
 Si vous êtes propriétaire d'un site web, vous savez probablement à quel point il est important de se classer en haut des résultats des moteurs de recherche. Pour y parvenir, vous devez optimiser différents aspects de votre site, tels que le contenu, les images, les balises et les descriptions. Dans cet article, nous allons nous concentrer sur les balises title et meta description et comment les optimiser pour améliorer le référencement de votre site.
