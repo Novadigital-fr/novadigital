@@ -87,4 +87,4 @@ Enfin, pour optimiser les performances de votre site, vous pouvez utiliser des t
 
 Conclusion
 
-En utilisant Nuxt et Shopify, vous pouvez créer un site e-commerce performant et hautement personnalisable en 2023. En suivant les étapes ci-dessus, vous pouvez connecter votre site Nuxt à votre boutique Shopify, personnaliser votre site en fonction de vos besoins et optimiser les performances de votre site. Avec un peu de travail acharné et de persévérance, vous pouvez créer une boutique en ligne qui offre une expérience d'achat exceptionnelle à vos clients.
+En utilisant Nuxt et Shopify, vous pouvez créer un site e-commerce performant et hautement personnalisable en 2023. En suivant les étapes ci-dessus, vous pouvez connecter votre site Nuxt à votre boutique Shopify, personnaliser votre site en fonction de vos besoins et optimiser les performances de votre site. Avec un peu de travail acharné et de persévérance, vous pouvez créer une boutique en ligne qui offre une expérience d'achat exceptionnelle à vos clients !
