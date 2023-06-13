@@ -4,11 +4,15 @@ description: Vous cherchez à améliorer le référencement de votre site web ? 
 image: /img/blog/article-audit-SEO-1.png
 ---
 
+<audio controls>
+  <source src="/voice/blog.mp3" type="audio/mp3">
+  Votre navigateur ne supporte pas la lecture audio.
+</audio>
+
 # Comment réaliser un audit SEO complet de votre site web pour identifier les problèmes à corriger ?
 
-![Interface de l’outil semrush pour faire un audit SEO](/img/blog/article-audit-SEO-1.png)
+![Interface de l’outil semrush pour faire un audit SEO](/img/blog/article-audit-SEO-1.png "Description de l'image")
 
-Interface de l’outil semrush pour faire un audit SEO
 
 Le référencement naturel est un élément essentiel de la stratégie de marketing en ligne de toute entreprise. Un audit SEO complet vous permet de comprendre les problèmes de votre site web qui peuvent nuire à votre positionnement dans les résultats de recherche. Dans cet article, nous vous donnerons 10 étapes simples pour réaliser un audit SEO complet de votre site web et identifier les problèmes à corriger.
 
