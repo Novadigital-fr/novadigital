@@ -1,33 +1,35 @@
 ---
 title: Voici les 9 raisons d’utiliser le CMS Webflow en 2023
 description: Pourquoi utiliser le CMS Webflow ? Voici les raisons pour lesquelles vous devez passer à l’outil Webflow immédiatement.
-image: /img/blog/article-webflow-1.png
+image: /img/blog/DEV-9-raisons-utiliser-webflow-2023/avis-webflow.png
 ---
 
 # 9 Raisons d'utiliser Webflow en 2023
 
-![Création d’une page web avec le CMS Webflow](/img/blog/article-webflow-1.png)
+![Création d’une page web avec le CMS Webflow](/img/blog/DEV-9-raisons-utiliser-webflow-2023/avis-webflow.png)
 
-Création d’une page web avec le CMS Webflow
+
 
 Webflow est une plateforme révolutionnaire qui a transformé la manière dont les sites web sont créés. Avec [Webflow](https://webflow.com/), les utilisateurs ont l'opportunité de concevoir des sites web complexes et de haute qualité sans avoir à écrire une seule ligne de code. De la conception au déploiement, cette plateforme offre des outils puissants pour créer des sites web personnalisés et optimisés pour les moteurs de recherche. Cette solution complète permet aux professionnels et aux débutants de réaliser des projets web ambitieux, ouvrant ainsi de nouvelles perspectives créatives dans le monde du développement web.
+
+<br>
 
 ## Pourquoi utiliser le CMS Webflow ? Créez des sites web professionnels sans code
 
 Webflow est une plateforme de création de sites web sans code qui permet aux utilisateurs de concevoir et personnaliser des sites professionnels sans compétences en programmation. Avec une interface visuelle intuitive et des fonctionnalités avancées, cet outil offre une solution complète pour créer des sites web attrayants, fonctionnels et optimisés pour les moteurs de recherche.
 
-![Création d’un article de blog avec le CMS Webflow](/img/blog/article-webflow-2.jpeg)
+![Création d’un article de blog avec le CMS Webflow](/img/blog/DEV-9-raisons-utiliser-webflow-2023/pourquoi-utiliser-webflow.jpeg)
 
 
-Création d’un article de blog avec le CMS Webflow
+
 
 ### 1. Créer des sites web sans avoir à écrire une seule ligne de code grâce au drag and drop
 
 Grâce à son interface conviviale et à son éditeur visuel intuitif, vous pouvez concevoir et personnaliser votre site web en faisant simplement glisser et déposer les éléments souhaités. Cela signifie que vous n'avez pas besoin de connaissances en programmation pour créer un site web professionnel.
 
-![Drag and drop de Webflow pour créer un site sans code](/img/blog/article-webflow-3.jpg)
+![Drag and drop de Webflow pour créer un site sans code](/img/blog/DEV-9-raisons-utiliser-webflow-2023/webflow-tuto.png)
 
-Drag and drop de Webflow pour créer un site sans code
+<br>
 
 ### 2. Avec Webflow, vous pouvez créer des sites web complexes offrant une grande variété de fonctionnalités
 
@@ -37,17 +39,17 @@ Que vous souhaitiez intégrer des galeries d'images interactives, des formulaire
 
 Grâce à sa courbe d'apprentissage progressive et à sa documentation complète, vous pouvez rapidement vous familiariser avec les fonctionnalités de Webflow. De plus, la communauté active de Webflow offre de nombreuses ressources, tutoriels et forums d'entraide pour vous accompagner dans votre apprentissage et répondre à vos questions.
 
-![Interface web de l’outil Webflow](/img/blog/article-webflow-4.png)
+![Interface web de l’outil Webflow](/img/blog/DEV-9-raisons-utiliser-webflow-2023/tuto-webflow.png)
 
-Interface web de l’outil Webflow
+<br>
 
 ### 4. Vous n'avez pas besoin d'utiliser un logiciel complexe pour créer un site web
 
 Webflow est une solution tout-en-un qui vous permet de concevoir, développer et héberger votre site web au même endroit. Vous n'avez pas à jongler entre différents outils ou à installer des logiciels supplémentaires. Tout ce dont vous avez besoin est intégré dans la plateforme Webflow.
 
-![Interface de drag and drop sur le CMS Webflow](/img/blog/article-webflow-5.png)
+![Interface de drag and drop sur le CMS Webflow](/img/blog/DEV-9-raisons-utiliser-webflow-2023/creer-un-site-avec-webflow.png)
 
-Interface de drag and drop sur le CMS Webflow
+
 
 ### 5. Mettez votre site en ligne rapidement et facilement
 
@@ -57,11 +59,10 @@ Une fois que vous avez conçu votre site web, Webflow facilite grandement le pro
 
 Des fonctionnalités telles que la création de maquettes, la gestion avancée des médias, le support des polices personnalisées et des intégrations avec des outils externes vous permettent de créer des sites web esthétiquement attrayants et fonctionnellement performants. Vous avez le contrôle total sur le design et pouvez donner vie à vos idées de manière créative.
 
-<video src="/img/blog/article-webflow-video.mp4"  controls>
-  Texte alternatif
-</video>
+<video src="/img/blog/DEV-9-raisons-utiliser-webflow-2023/article-webflow-video.mp4" controls title="création d'une page sur Webflow"></video>
 
-Démonstration de la création de la page drag and drog sur Webflow
+
+
 
 ### 7. Webflow vous permet de créer des sites web optimisés pour les moteurs de recherche
 
@@ -72,13 +73,15 @@ Vous pouvez consulter notre article sur l’importance et le partage d’outils 
 
 Avec Webflow, vous pouvez être assuré que votre site web sera correctement affiché sur différents navigateurs tels que [Chrome](https://chrome.google.com/), Firefox, Safari et Edge, ainsi que sur différents appareils tels que les ordinateurs de bureau, les tablettes et les smartphones. il utilise des technologies web modernes et adopte des pratiques de développement responsives, assurant ainsi une expérience utilisateur cohérente et optimale quel que soit le dispositif utilisé pour accéder à votre site web.
 
-![Personnalisation d’une page sur Webflow](/img/blog/article-webflow-6.png)
+![Personnalisation d’une page sur Webflow](/img/blog/DEV-9-raisons-utiliser-webflow-2023/webflow-avis.png)
 
-Personnalisation d’une page sur Webflow
+
 
 ### 9. Mises à jour gratuites et outils de sécurité intégrés pour vous aider à maintenir votre site web à jour
 
 Webflow propose régulièrement des mises à jour pour améliorer ses fonctionnalités et assurer la sécurité de votre site. Vous bénéficiez ainsi des dernières avancées technologiques et des correctifs de sécurité essentiels. De plus, le CMS intègre des outils de sécurité avancés pour protéger votre site contre les menaces potentielles.
+
+<br>
 
 ---
 
