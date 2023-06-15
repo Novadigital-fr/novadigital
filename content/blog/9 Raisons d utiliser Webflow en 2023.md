@@ -27,7 +27,7 @@ Webflow est une plateforme de création de sites web sans code qui permet aux ut
 
 Grâce à son interface conviviale et à son éditeur visuel intuitif, vous pouvez concevoir et personnaliser votre site web en faisant simplement glisser et déposer les éléments souhaités. Cela signifie que vous n'avez pas besoin de connaissances en programmation pour créer un site web professionnel.
 
-![Drag and drop de Webflow pour créer un site sans code](/img/blog/DEV-9-raisons-utiliser-webflow-2023/webflow-tuto.png)
+![Drag and drop de Webflow pour créer un site sans code](/img/blog/DEV-9-raisons-utiliser-webflow-2023/webflow-tuto.jpg)
 
 <br>
 
