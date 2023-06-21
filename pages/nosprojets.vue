@@ -65,7 +65,7 @@ gsap.registerPlugin(ScrollTrigger);
 const scrollTween = ref(null);
 
 definePageMeta({
-  layout: "custom",
+  layout: "nolayout",
 });
 
 onMounted(() => {
