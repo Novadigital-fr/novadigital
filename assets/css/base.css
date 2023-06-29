@@ -1,0 +1,128 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+::-webkit-scrollbar{
+	display: none; /* cache les barres de défilement sur Chrome, Safari et Opera*/
+}
+
+:root {
+	font-size: 18px;
+	--color-text: #f9f6f0;
+    --color-secondaire: #ED5211;
+	--color-bg: #121212;
+}
+
+html {
+	scroll-behavior: initial; 
+	-ms-overflow-style: none;  /* cache les barres de défilement sur IE et Edge #FCF4DC*/
+	scrollbar-width: none; /* cache les barres de défilement sur Firefox*/
+}
+
+html, body{
+	width: 100%;
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--color-bg);
+	background-color: var(--color-text);
+	border-color: var(--color-border);
+	stroke: var(--color-text);
+	font-family: 'Neue Montreal', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color:inherit;
+}
+
+@font-face {
+	font-family: 'Neue Montreal';
+	src: local('NeueMontreal-Medium.otf') format('otf'),
+		 local('NeueMontreal-Regular.otf') format('otf'),
+		 local('NeueMontreal-Bold.otf') format('otf'),
+		 local('NeueMontreal-light.otf') format('otf'),
+
+}
+
+.dark{
+    color: var(--color-bg)!important;
+    background-color: var(--color-text) !important;
+	border-color: var(--color-bg)!important;
+	stroke: var(--color-bg) !important;
+}
+
+
+.button_filler .dark :hover{
+	background: var(--color-bg)!important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal;
+}
+.bouton_projet{
+	background-color: var(--color-bg);
+	padding-left: 40%;
+	margin-top: -15%;
+	padding-bottom: 10%;
+  }
+
+  .link {
+	cursor: pointer;
+	position: relative;
+	white-space: nowrap;
+	width: fit-content;
+  
+  }
+  
+  .link::before,
+  .link::after {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: currentColor;
+	top: 100%;
+	left: 0;
+	pointer-events: none;
+  }
+  .link::before {
+	content: "";
+	/* show by default */
+  }
+  
+  .link--metis::before {
+	transform-origin: 100% 50%;
+	transform: scale3d(0, 1, 1);
+	transition: transform 0.3s;
+  }
+  
+  .link--metis:hover::before {
+	transform-origin: 0% 50%;
+	transform: scale3d(1, 1, 1);
+  }
+  
+
+@media screen and (max-width: 1024px) {
+    /* tablettte */
+	
+}
+
+@media screen and (max-width: 767px) {
+    /* mobile */
+	.bouton_projet{
+		padding-left: 4vw;
+		
+	  }
+
+}
