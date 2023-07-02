@@ -15,7 +15,7 @@ definePageMeta({
 
   <div class="article">
     <ContentDoc />
-    <SchemaOrgArticle :headline="blogPost.title" :datePublished="blogPost.date" :author="blogPost.author" :image="blogPost.image" />
+    <SchemaOrgArticle type="BlogPosting" :headline="blogPost.title" :datePublished="blogPost.date" :author="blogPost.author" :image="blogPost.image" />
   </div>
 
   <!-- <div class="otherarticle">
