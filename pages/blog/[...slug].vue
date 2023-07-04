@@ -8,27 +8,6 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 definePageMeta({
   layout: "blog",
 });
-
-// Générer le JSON-LD en tant que chaîne de caractères
-const jsonLd = JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": blogPost.title,
-  "description": blogPost.description,
-  "image": blogPost.image,
-  "datePublished": blogPost.date,
-  "author": {
-    "@type": "Person",
-    "name": blogPost.author
-  }
-})
-
-// Insérer le JSON-LD dans la balise <head> du document
-const script = document.createElement("script")
-script.setAttribute("type", "application/ld+json")
-script.setAttribute("id", "schema-org-graph")
-script.text = jsonLd
-document.head.appendChild(script)
 </script>
 
 <template>
@@ -37,6 +16,14 @@ document.head.appendChild(script)
 
   <div class="article">
     <ContentDoc />
+    <SchemaOrgArticle
+      type="'BlogPosting'"
+      headline="Voici les 9 raisons d’utiliser le CMS Webflow en 2023"
+      :description="description"
+      :image="blogPost.image"
+      :datePublished="blogPost.date"
+      :author="{ '@type': 'Person', 'name': blogPost.author }"
+    />
   </div>
 
   <!-- <div class="otherarticle">

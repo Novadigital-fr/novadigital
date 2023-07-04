@@ -16,12 +16,12 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.novadigital.fr/',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000/ ',
     }
   },
   // ...
   schemaOrg: {
-    host: 'https://www.novadigital.fr/',
+    host: 'http://localhost:3000/ ',
   },
   app: {
     head: {
