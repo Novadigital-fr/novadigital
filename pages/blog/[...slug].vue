@@ -15,14 +15,22 @@ definePageMeta({
 
   <div class="article">
     <ContentDoc />
-    <SchemaOrgArticle
-        :type="'BlogPosting'"
-        :headline="blogPost.title"
-        :description="blogPost.description"
-        :image="blogPost.image"
-        :datePublished="blogPost.date"
-        :author="{ '@type': 'Person', 'name': blogPost.author }"
-      /> 
+    <script type="application/ld+json" id="schema-org-graph">
+        {{
+          JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": blogPost.title,
+            "description": blogPost.description,
+            "image": blogPost.image,
+            "datePublished": blogPost.date,
+            "author": {
+              "@type": "Person",
+              "name": blogPost.author
+            }
+          })
+        }}
+      </script>
   </div>
 
   <!-- <div class="otherarticle">
