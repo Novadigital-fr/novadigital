@@ -15,7 +15,14 @@ definePageMeta({
 
   <div class="article">
     <ContentDoc />
-    <SchemaOrgArticle type="BlogPosting" :headline="blogPost.title" :datePublished="blogPost.date" :author="blogPost.author" :image="blogPost.image" />
+    <SchemaOrgArticle
+        :type="'BlogPosting'"
+        :headline="blogPost.title"
+        :description="blogPost.description"
+        :image="blogPost.image"
+        :datePublished="blogPost.date"
+        :author="{ '@type': 'Person', 'name': blogPost.author }"
+      /> 
   </div>
 
   <!-- <div class="otherarticle">
