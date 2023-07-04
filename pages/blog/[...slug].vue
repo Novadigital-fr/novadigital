@@ -1,3 +1,4 @@
+
 <script setup>
 const { path } = useRoute()
 
@@ -7,6 +8,27 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 definePageMeta({
   layout: "blog",
 });
+
+// Générer le JSON-LD en tant que chaîne de caractères
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": blogPost.title,
+  "description": blogPost.description,
+  "image": blogPost.image,
+  "datePublished": blogPost.date,
+  "author": {
+    "@type": "Person",
+    "name": blogPost.author
+  }
+})
+
+// Insérer le JSON-LD dans la balise <head> du document
+const script = document.createElement("script")
+script.setAttribute("type", "application/ld+json")
+script.setAttribute("id", "schema-org-graph")
+script.text = jsonLd
+document.head.appendChild(script)
 </script>
 
 <template>
@@ -15,22 +37,6 @@ definePageMeta({
 
   <div class="article">
     <ContentDoc />
-    <script type="application/ld+json" id="schema-org-graph">
-        {{
-          JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": blogPost.title,
-            "description": blogPost.description,
-            "image": blogPost.image,
-            "datePublished": blogPost.date,
-            "author": {
-              "@type": "Person",
-              "name": blogPost.author
-            }
-          })
-        }}
-      </script>
   </div>
 
   <!-- <div class="otherarticle">
