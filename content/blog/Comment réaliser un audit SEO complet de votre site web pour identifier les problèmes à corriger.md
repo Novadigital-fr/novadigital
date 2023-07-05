@@ -4,6 +4,8 @@ description: Vous cherchez à améliorer le référencement de votre site web ? 
 image: /img/blog/SEO-faire-un-audit-complet/audit-seo.png
 date: "2023-04-29"
 author: "Alexis Rittimann"
+categorie: "SEO"
+
 ---
 
 <audio controls>

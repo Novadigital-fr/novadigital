@@ -5,9 +5,6 @@ const { path } = useRoute()
 const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
 })
-definePageMeta({
-  layout: "blog",
-});
 </script>
 
 <template>
@@ -16,14 +13,14 @@ definePageMeta({
 
   <div class="article">
     <ContentDoc />
-    <SchemaOrgArticle
-      type="'BlogPosting'"
-      headline="Voici les 9 raisons d’utiliser le CMS Webflow en 2023"
-      :description="description"
-      :image="blogPost.image"
-      :datePublished="blogPost.date"
-      :author="{ '@type': 'Person', 'name': blogPost.author }"
-    />
+   <BlogJsonLdScript
+   :headline="blogPost.title"
+    :description="blogPost.description"
+    :image="blogPost.image"
+    :datePublished="blogPost.date"
+    :author="blogPost.author"
+    :categorie="blogPost.categorie"
+  />
   </div>
 
   <!-- <div class="otherarticle">
@@ -36,7 +33,11 @@ definePageMeta({
 </template>
 
 <style>
-
+iframe{
+  margin-bottom: 10vh;
+  width: 100%;
+   height: 450px;
+}
 .pagearticle{
   display: flex;
 }
@@ -128,6 +129,10 @@ flex-direction: column;
   margin: 3vh 0;
   font-weight: 500;
 
+}
+iframe{
+
+   height: 250px;
 }
 .article h3{
   font-size: 22px;

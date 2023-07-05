@@ -4,12 +4,13 @@ description: Découvrez ce qu'est la longue traîne en SEO, apprenez à trouver 
 image: /img/blog/SEO-mots-cles-longue-traine/mots-cles-longue-traine-seo.jpg
 date: "2023-06-29"
 author: "Alexis Rittimann"
+categorie: "SEO"
 ---
 
 
 # Comprendre et trouver les mots-clés longue traîne pour optimiser votre SEO
 
-![mots-cles-longue-traine-seo.jpg](/img/blog/SEO-mots-cles-longue-traine/mots-cles-longue-traine-seo.jpg)
+<iframe src="https://www.youtube.com/embed/gOxfdpwn85o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Dans le monde hyper compétitif du SEO, utiliser les bons mots-clés est comme trouver le Graal. Les mots-clés les plus populaires ? Tout le monde se bat pour eux. C'est pourquoi nous devons explorer des chemins moins fréquentés, à la recherche de ces trésors cachés que sont les "mots-clés longue traîne". Moins recherchés individuellement, mais d'une valeur inestimable lorsqu'ils sont combinés. 
 

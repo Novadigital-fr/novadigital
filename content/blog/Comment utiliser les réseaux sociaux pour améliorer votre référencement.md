@@ -4,6 +4,7 @@ description: Les réseaux sociaux peuvent jouer un rôle important dans l'améli
 image: /img/blog/SEO-reseaux-sociaux-referencement/seo-et-reseaux-sociaux.jpg
 date: "2023-04-19"
 author: "Alexis Rittimann"
+categorie: "SEO"
 ---
 
 # Comment utiliser les réseaux sociaux pour améliorer votre référencement ?

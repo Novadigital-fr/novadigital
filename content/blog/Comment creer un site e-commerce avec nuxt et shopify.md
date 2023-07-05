@@ -4,6 +4,8 @@ description: Pour créer un site e-commerce, vous pouvez utiliser Nuxt et Shopif
 image: /img/blog/DEV-nuxt-et-shopify/nuxt-3-shopify.png
 date: "2023-06-20"
 author: "Alexis Rittimann"
+categorie: "Developpement"
+
 ---
 
 

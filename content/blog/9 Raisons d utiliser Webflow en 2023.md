@@ -4,6 +4,8 @@ description: Pourquoi utiliser le CMS Webflow ? Voici les raisons pour lesquelle
 image: /img/blog/DEV-9-raisons-utiliser-webflow-2023/avis-webflow.png
 date: "2023-05-29"
 author: "Alexis Rittimann"
+categorie: "Developpement"
+
 ---
 
 # 9 Raisons d'utiliser Webflow en 2023

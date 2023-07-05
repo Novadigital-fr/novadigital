@@ -4,6 +4,8 @@ description: Boostez votre référencement avec des balises title et meta descri
 image: /img/blog/SEO-balise-titre-et-meta-description/site-web-novadigital.jpg
 date: "2023-05-09"
 author: "Alexis Rittimann"
+categorie: "SEO"
+
 ---
 
 # Comment optimiser les balises title et meta description pour améliorer le référencement
