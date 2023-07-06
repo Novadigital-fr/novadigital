@@ -40,11 +40,23 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://votre-site-web.com/chemin/vers/article"
+        "@id": "https://www.novadigital.fr/blog/"
     },
     "articleSection": props.categorie,
     "keywords": props.motscles,
-    "articleBody": "Le corps complet de l'article ici..."    }
+    "inLanguage": "fr-FR", 
+    "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["https://www.novadigital.fr/blog/"]
+    }],
+    "sameAs": [
+        "https://www.instagram.com/novadigital.fr/",
+        "https://www.linkedin.com/company/agence-web-novadigital",
+        "https://www.youtube.com/channel/UC0AKtJGUj_ZfyCGIasar32w",
+        "https://www.facebook.com/Agence.novadigital/"
+    ]
+
+    }
     
     script = document.createElement('script')
     script.type = 'application/ld+json'

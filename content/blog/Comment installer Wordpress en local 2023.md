@@ -5,7 +5,7 @@ image: /img/blog/DEV-installer-wordpress-2023/wordpress-en-local.png
 date: "2023-06-09"
 author: "Alexis Rittimann"
 categorie: "Developpement"
-
+motscles: "comment installer wordpress en local, comment installer wordpress"
 ---
 
 # Comment installer Wordpress en local en 2023 ?

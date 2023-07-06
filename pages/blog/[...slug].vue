@@ -5,6 +5,9 @@ const { path } = useRoute()
 const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
 })
+definePageMeta({
+  layout: "blog",
+});
 </script>
 
 <template>
@@ -13,20 +16,23 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
 
   <div class="article">
     <ContentDoc />
-   <BlogJsonLdScript
-   :headline="blogPost.title"
+    <BlogJsonLdScript
+    :headline="blogPost.title"
     :description="blogPost.description"
     :image="blogPost.image"
     :datePublished="blogPost.date"
     :author="blogPost.author"
     :categorie="blogPost.categorie"
+    :motscles="blogPost.motscles"
+
   />
+
   </div>
 
   <!-- <div class="otherarticle">
   <BlogArticleDroite />
   </div> -->
-<BlogSidebar/>
+  <BlogSidebar/>
 
 </div>
 
