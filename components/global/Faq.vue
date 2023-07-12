@@ -1,11 +1,11 @@
-<template>
+<!-- <template>
     <div class=“key_service light_mode”>
     
       <div class=“right”>
         <details open>
           <summary>
             <h2 class=“orange”>kfekfnejkfkejnfkenkef</h2>
-            <img class=“fleche first_fleche” src=“../../assets/img/fleche.svg” alt=“” />
+          
           </summary>
           <p class=“content_small”>
             jvbdkjnvdlnvkdnvkdnvdnvkdn
@@ -89,4 +89,4 @@
       padding-left: 10vw;
     }
   }
-  </style>
+  </style> -->
