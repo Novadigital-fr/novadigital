@@ -1,153 +1,140 @@
-
 <script setup>
-const { path } = useRoute()
+const { path } = useRoute();
 
 const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
-  return queryContent().where({ _path: path }).findOne()
-})
+  return queryContent().where({ _path: path }).findOne();
+});
 definePageMeta({
   layout: "blog",
 });
 </script>
 
 <template>
+  <div class="pagearticle">
+    <div class="article">
+      <ContentDoc />
+      <BlogJsonLdScript
+        :headline="blogPost.title"
+        :description="blogPost.description"
+        :image="blogPost.image"
+        :datePublished="blogPost.date"
+        :author="blogPost.author"
+        :categorie="blogPost.categorie"
+        :motscles="blogPost.motscles"
+      />
+    </div>
 
-<div class="pagearticle">
-
-  <div class="article">
-    <ContentDoc />
-    <BlogJsonLdScript
-    :headline="blogPost.title"
-    :description="blogPost.description"
-    :image="blogPost.image"
-    :datePublished="blogPost.date"
-    :author="blogPost.author"
-    :categorie="blogPost.categorie"
-    :motscles="blogPost.motscles"
-
-  />
-
-  </div>
-
-  <!-- <div class="otherarticle">
+    <!-- <div class="otherarticle">
   <BlogArticleDroite />
   </div> -->
-  <BlogSidebar/>
-
-</div>
-
+    <BlogSidebar />
+  </div>
 </template>
 
 <style>
-iframe{
+iframe {
   margin-bottom: 10vh;
   width: 100%;
-   height: 450px;
+  height: 450px;
 }
-.pagearticle{
+.pagearticle {
   display: flex;
 }
-.article{
+.article {
   width: 45%;
   margin: 5% 0 5% 10%;
   /* padding: 5% 15%; */
 }
-.article img,.article video{
- width: 100%;
-  
+.article img,
+.article video {
+  width: 100%;
 }
-.article p a{
-color: var(--color-secondaire);
+.article p a {
+  color: var(--color-secondaire);
 }
-.article pre{
+.article pre {
   background-color: var(--color-bg);
   padding: 2%;
   border-radius: 4px;
   overflow: overlay;
 }
-.article h1{
+.article h1 {
   font-size: 35px;
   margin: 5vh 0;
   /* font-weight: 500; */
   /* text-align: center; */
 }
-.article h2{
+.article h2 {
   font-size: 35px;
   margin: 3vh 0;
   font-weight: 500;
-
 }
-.article h3{
+.article h3 {
   font-size: 25px;
   margin: 2vh 0;
   font-weight: 500;
 
   /* text-decoration: underline; */
 }
-.article h4{
+.article h4 {
   font-size: 25px;
   margin: 2vh 0;
   text-decoration: underline;
 }
-.article h5{
+.article h5 {
   font-size: 25px;
   margin: 2vh 0;
   text-decoration: underline;
 }
 
-.article p{
+.article p {
   margin-bottom: 5vh;
   line-height: 26px;
 }
-.otherarticle{
+.otherarticle {
   width: 25%;
 }
-.articles{
+.articles {
   flex-direction: column;
 }
 @media screen and (max-width: 1024px) {
   /* tablettte */
 
-  .pagearticle{
-flex-direction: column;
-}
-.article{
-  width: 100%;
-  padding: 5% 10%;
-  margin: 0;
-
-}
-.article h1{
-  font-size: 30px;
-}
-.otherarticle{
-  width: 100%;
-}
+  .pagearticle {
+    flex-direction: column;
+  }
+  .article {
+    width: 100%;
+    padding: 5% 10%;
+    margin: 0;
+  }
+  .article h1 {
+    font-size: 30px;
+  }
+  .otherarticle {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   /* mobile */
-  .article h1{
-  font-size: 25px;
-}
-.article h2{
-  font-size: 25px;
-  margin: 3vh 0;
-  font-weight: 500;
+  .article h1 {
+    font-size: 25px;
+  }
+  .article h2 {
+    font-size: 25px;
+    margin: 3vh 0;
+    font-weight: 500;
+  }
+  iframe {
+    height: 250px;
+  }
+  .article h3 {
+    font-size: 22px;
+    margin: 2vh 0;
+    font-weight: 500;
 
+    /* text-decoration: underline; */
+  }
 }
-iframe{
-
-   height: 250px;
-}
-.article h3{
-  font-size: 22px;
-  margin: 2vh 0;
-  font-weight: 500;
-
-  /* text-decoration: underline; */
-}
-}
-
 </style>
-
