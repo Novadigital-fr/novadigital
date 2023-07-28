@@ -38,14 +38,14 @@ export default defineNuxtConfig({
         {  src: "//js-eu1.hs-scripts.com/26471288.js"},
         {
           async: true,
-          src: "https://www.googletagmanager.com/gtag/js?id=G-C0TSJ56BWV",
+          src: "https://www.googletagmanager.com/gtag/js?id=G-8G1Q0GP79E",
         },
         {
           innerHTML: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-C0TSJ56BWV');
+            gtag('config', 'G-8G1Q0GP79E');
           `,
           type: "text/javascript",
         },
