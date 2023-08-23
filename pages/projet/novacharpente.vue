@@ -1,7 +1,7 @@
 <template>
     <div>
       <ProjetHero
-         text="novacharpente"
+         text="Novacharpente"
          image ="/img/novacharpente/novacharpente1.png"
       />
       <ProjetPresentation

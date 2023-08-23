@@ -1,7 +1,7 @@
 <template>
     <div>
       <ProjetHero
-         text="inf-lib"
+         text="Inf-lib"
          image ="/img/inflib/inflib4.png"
       />
       <ProjetPresentation

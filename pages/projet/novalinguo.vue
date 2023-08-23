@@ -1,7 +1,7 @@
 <template>
     <div>
       <ProjetHero
-         text="novalingo"
+         text="Novalingo"
          image ="/img/novalingo/novalingo1.png"
       />
       <ProjetPresentation

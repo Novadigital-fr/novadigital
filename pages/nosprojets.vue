@@ -3,6 +3,22 @@
     <div id="container" class="container">
       <div class="slider-inner">
         <section class="panel">
+          <NuxtLink to="projet/asg">
+            <div
+              class="img"
+              style="background-image: url(./img/ASG/asg-1.png)"
+            ></div>
+          </NuxtLink>
+        </section>
+        <section class="panel">
+          <NuxtLink to="projet/supetixs">
+            <div
+              class="img"
+              style="background-image: url(./img/supetixs/supetixs-4.png)"
+            ></div>
+          </NuxtLink>
+        </section>
+        <section class="panel">
           <NuxtLink to="projet/novagraphy">
             <div
               class="img"
@@ -107,7 +123,7 @@ onUnmounted(() => {
 <style scoped>
 .container {
   background-color: var(--color-bg);
-  width: 200vw;
+  width: 250vw;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
